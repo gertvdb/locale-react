@@ -4,12 +4,24 @@ import * as Stories from "./Example.stories";
 
 <Meta of={Stories} />
 
-# `Example`
+# `Locale Management`
 
-Explain your example here.
+This example demonstrates how to use the `@gertvdb/locale` library to access the system locale and create custom locale objects.
 
 <br />
 
 ## Demo
 
 <Canvas of={Stories.Standard} />
+
+## Code
+
+```tsx
+import { SystemLocale, createLocale } from "@gertvdb/locale";
+
+// Access system locale
+const system = SystemLocale.locale;
+
+// Create custom locale
+const custom = createLocale({ languageOrLocale: 'fr-CA' });
+```
