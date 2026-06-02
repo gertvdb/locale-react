@@ -1,6 +1,4 @@
-import type {
-  ILocale,
-} from "@/Types";
+import type { ILocale } from "@/Types";
 import { Locale } from "@/Domain/Locale";
 
 /**
@@ -19,15 +17,14 @@ export function createLocale(value: {
   languageOrLocale: string;
   country?: string;
 }): ILocale {
-
   if (value.country) {
     return Locale.new({
       language: value.languageOrLocale,
-      country: value.country
+      country: value.country,
     });
   }
 
   return Locale.fromLocale({
-    locale: value.languageOrLocale
+    locale: value.languageOrLocale,
   });
 }

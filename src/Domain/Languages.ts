@@ -1,39 +1,41 @@
-import {ILanguage, ILanguages} from "@/Types";
+import { ILanguage, ILanguages } from "@/Types";
 
 export class Languages implements ILanguages {
-    private readonly values: ILanguage[];
+  private readonly values: ILanguage[];
 
-    private constructor(values: ILanguage[]) {
-        // Private constructor to ensure immutability
-        this.values = values;
+  private constructor(values: ILanguage[]) {
+    // Private constructor to ensure immutability
+    this.values = values;
+  }
+
+  static empty(): ILanguages {
+    return new Languages([]);
+  }
+
+  add(language: ILanguage): ILanguages {
+    const exists = this.toArray().find(
+      (item) =>
+        item.iso_639_1.toLowerCase() === language.iso_639_1.toLowerCase(),
+    );
+
+    if (exists) {
+      return this; // Return the current collection if the country already exists
     }
 
-    static empty(): ILanguages {
-        return new Languages([]);
-    }
+    const newCollection = [...this.values, language];
+    return new Languages(newCollection);
+  }
 
-    add(language: ILanguage): ILanguages {
-        const exists = this.toArray().find(
-            (item) => item.iso_639_1.toLowerCase() === language.iso_639_1.toLowerCase(),
-        );
+  remove(language: ILanguage): ILanguages {
+    const newCollection = this.values.filter(
+      (item) =>
+        item.iso_639_1.toLowerCase() !== language.iso_639_1.toLowerCase(),
+    );
 
-        if (exists) {
-            return this; // Return the current collection if the country already exists
-        }
+    return new Languages(newCollection);
+  }
 
-        const newCollection = [...this.values, language];
-        return new Languages(newCollection);
-    }
-
-    remove(language: ILanguage): ILanguages {
-        const newCollection = this.values.filter(
-            (item) => item.iso_639_1.toLowerCase() !== language.iso_639_1.toLowerCase(),
-        );
-
-        return new Languages(newCollection);
-    }
-
-    toArray(): ILanguage[] {
-        return this.values;
-    }
+  toArray(): ILanguage[] {
+    return this.values;
+  }
 }

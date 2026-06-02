@@ -1,6 +1,6 @@
 {
   "name": "@gertvdb/locale",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": " Simple, predictable locale management for React",
   "repository": {
     "url": "https://github.com/gertvdb/locale-react"

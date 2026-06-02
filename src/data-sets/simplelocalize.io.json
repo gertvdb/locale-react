@@ -98,14 +98,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -180,15 +174,8 @@
         }
       ],
       "flag": "🇳🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AO",
-        "BW",
-        "ZA",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AO", "BW", "ZA", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -319,17 +306,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -392,17 +370,8 @@
         }
       ],
       "flag": "🇪🇹",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ER",
-        "KE",
-        "SO",
-        "SS",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ER", "KE", "SO", "SS", "SD"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -585,15 +554,8 @@
         }
       ],
       "flag": "🇪🇬",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "IL",
-        "LY",
-        "PS",
-        "SD"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["IL", "LY", "PS", "SD"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -776,18 +738,8 @@
         }
       ],
       "flag": "🇩🇿",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "TN",
-        "LY",
-        "NE",
-        "EH",
-        "MR",
-        "ML",
-        "MA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["TN", "LY", "NE", "EH", "MR", "ML", "MA"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -970,9 +922,7 @@
         }
       ],
       "flag": "🇧🇭",
-      "timezones": [
-        "UTC+03:00"
-      ],
+      "timezones": ["UTC+03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####|###",
@@ -1163,14 +1113,8 @@
         }
       ],
       "flag": "🇩🇯",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "ER",
-        "ET",
-        "SO"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["ER", "ET", "SO"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -1409,14 +1353,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -1606,17 +1544,8 @@
         }
       ],
       "flag": "🇮🇶",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "IR",
-        "JO",
-        "KW",
-        "SA",
-        "SY",
-        "TR"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["IR", "JO", "KW", "SA", "SY", "TR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -1806,16 +1735,8 @@
         }
       ],
       "flag": "🇮🇱",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "EG",
-        "JO",
-        "LB",
-        "PS",
-        "SY"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["EG", "JO", "LB", "PS", "SY"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -1998,13 +1919,8 @@
         }
       ],
       "flag": "🇾🇪",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "OM",
-        "SA"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["OM", "SA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -2187,16 +2103,8 @@
         }
       ],
       "flag": "🇯🇴",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "IQ",
-        "IL",
-        "PS",
-        "SA",
-        "SY"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["IQ", "IL", "PS", "SA", "SY"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -2379,12 +2287,8 @@
         }
       ],
       "flag": "🇶🇦",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "SA"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["SA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -2574,9 +2478,7 @@
         }
       ],
       "flag": "🇰🇲",
-      "timezones": [
-        "UTC+03:00"
-      ],
+      "timezones": ["UTC+03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -2760,13 +2662,8 @@
         }
       ],
       "flag": "🇰🇼",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "IQ",
-        "SA"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["IQ", "SA"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -2956,13 +2853,8 @@
         }
       ],
       "flag": "🇱🇧",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "IL",
-        "SY"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["IL", "SY"],
       "is_landlocked": false,
       "postal_code_format": "#### ####|####",
       "postal_code_regex": "^(\\d{4}(\\d{4})?)$",
@@ -3145,17 +3037,8 @@
         }
       ],
       "flag": "🇱🇾",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "DZ",
-        "TD",
-        "EG",
-        "NE",
-        "SD",
-        "TN"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["DZ", "TD", "EG", "NE", "SD", "TN"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -3338,14 +3221,8 @@
         }
       ],
       "flag": "🇲🇦",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "DZ",
-        "EH",
-        "ES"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["DZ", "EH", "ES"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -3528,15 +3405,8 @@
         }
       ],
       "flag": "🇲🇷",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "DZ",
-        "ML",
-        "SN",
-        "EH"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["DZ", "ML", "SN", "EH"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -3719,14 +3589,8 @@
         }
       ],
       "flag": "🇴🇲",
-      "timezones": [
-        "UTC+04:00"
-      ],
-      "borders": [
-        "SA",
-        "AE",
-        "YE"
-      ],
+      "timezones": ["UTC+04:00"],
+      "borders": ["SA", "AE", "YE"],
       "is_landlocked": false,
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
@@ -3909,14 +3773,8 @@
         }
       ],
       "flag": "🇵🇸",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "IL",
-        "EG",
-        "JO"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["IL", "EG", "JO"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -4099,18 +3957,8 @@
         }
       ],
       "flag": "🇸🇦",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "IQ",
-        "JO",
-        "KW",
-        "OM",
-        "QA",
-        "AE",
-        "YE"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["IQ", "JO", "KW", "OM", "QA", "AE", "YE"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -4300,14 +4148,8 @@
         }
       ],
       "flag": "🇸🇴",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "KE"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "KE"],
       "is_landlocked": false,
       "postal_code_format": "@@  #####",
       "postal_code_regex": "^([A-Z]{2}\\d{5})$",
@@ -4497,18 +4339,8 @@
         }
       ],
       "flag": "🇸🇩",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "CF",
-        "TD",
-        "EG",
-        "ER",
-        "ET",
-        "LY",
-        "SS"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["CF", "TD", "EG", "ER", "ET", "LY", "SS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -4691,16 +4523,8 @@
         }
       ],
       "flag": "🇸🇾",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "IQ",
-        "IL",
-        "JO",
-        "LB",
-        "TR"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["IQ", "IL", "JO", "LB", "TR"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -4890,17 +4714,8 @@
         }
       ],
       "flag": "🇹🇩",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "CF",
-        "LY",
-        "NE",
-        "NG",
-        "SD"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "CF", "LY", "NE", "NG", "SD"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -5083,13 +4898,8 @@
         }
       ],
       "flag": "🇹🇳",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "DZ",
-        "LY"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["DZ", "LY"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -5272,13 +5082,8 @@
         }
       ],
       "flag": "🇦🇪",
-      "timezones": [
-        "UTC+04:00"
-      ],
-      "borders": [
-        "OM",
-        "SA"
-      ],
+      "timezones": ["UTC+04:00"],
+      "borders": ["OM", "SA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -5355,16 +5160,8 @@
         }
       ],
       "flag": "🇧🇴",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "AR",
-        "BR",
-        "CL",
-        "PY",
-        "PE"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["AR", "BR", "CL", "PY", "PE"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -5427,16 +5224,8 @@
         }
       ],
       "flag": "🇦🇿",
-      "timezones": [
-        "UTC+04:00"
-      ],
-      "borders": [
-        "AM",
-        "GE",
-        "IR",
-        "RU",
-        "TR"
-      ],
+      "timezones": ["UTC+04:00"],
+      "borders": ["AM", "GE", "IR", "RU", "TR"],
       "is_landlocked": true,
       "postal_code_format": "AZ ####",
       "postal_code_regex": "^(?:AZ)*(\\d{4})$",
@@ -5506,16 +5295,8 @@
         }
       ],
       "flag": "🇧🇾",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "LV",
-        "LT",
-        "PL",
-        "RU",
-        "UA"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["LV", "LT", "PL", "RU", "UA"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -5578,13 +5359,8 @@
         }
       ],
       "flag": "🇧🇩",
-      "timezones": [
-        "UTC+06:00"
-      ],
-      "borders": [
-        "MM",
-        "IN"
-      ],
+      "timezones": ["UTC+06:00"],
+      "borders": ["MM", "IN"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -5661,9 +5437,7 @@
         }
       ],
       "flag": "🇻🇺",
-      "timezones": [
-        "UTC+11:00"
-      ],
+      "timezones": ["UTC+11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -5746,14 +5520,8 @@
         }
       ],
       "flag": "🇧🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "HR",
-        "ME",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["HR", "ME", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -5842,16 +5610,8 @@
         }
       ],
       "flag": "🇲🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "BA",
-        "HR",
-        "XK",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "BA", "HR", "XK", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -5914,16 +5674,8 @@
         }
       ],
       "flag": "🇧🇬",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "GR",
-        "MK",
-        "RO",
-        "RS",
-        "TR"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["GR", "MK", "RO", "RS", "TR"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -6042,14 +5794,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -6112,13 +5858,8 @@
         }
       ],
       "flag": "🇦🇩",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FR",
-        "ES"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FR", "ES"],
       "is_landlocked": true,
       "postal_code_format": "AD###",
       "postal_code_regex": "^(?:AD)*(\\d{3})$",
@@ -6188,15 +5929,8 @@
         }
       ],
       "flag": "🇨🇿",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "DE",
-        "PL",
-        "SK"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "DE", "PL", "SK"],
       "is_landlocked": true,
       "postal_code_format": "### ##",
       "postal_code_regex": "^(\\d{5})$",
@@ -6278,9 +6012,7 @@
         }
       ],
       "flag": "🇬🇺",
-      "timezones": [
-        "UTC+10:00"
-      ],
+      "timezones": ["UTC+10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "969##",
@@ -6356,9 +6088,7 @@
         }
       ],
       "flag": "🇲🇵",
-      "timezones": [
-        "UTC+10:00"
-      ],
+      "timezones": ["UTC+10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -6422,16 +6152,8 @@
         }
       ],
       "flag": "🇩🇰",
-      "timezones": [
-        "UTC-04:00",
-        "UTC-03:00",
-        "UTC-01:00",
-        "UTC",
-        "UTC+01:00"
-      ],
-      "borders": [
-        "DE"
-      ],
+      "timezones": ["UTC-04:00", "UTC-03:00", "UTC-01:00", "UTC", "UTC+01:00"],
+      "borders": ["DE"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -6538,15 +6260,8 @@
         }
       ],
       "flag": "🇧🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FR",
-        "DE",
-        "LU",
-        "NL"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FR", "DE", "LU", "NL"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -6639,20 +6354,8 @@
         }
       ],
       "flag": "🇩🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "BE",
-        "CZ",
-        "DK",
-        "FR",
-        "LU",
-        "NL",
-        "PL",
-        "CH"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "BE", "CZ", "DK", "FR", "LU", "NL", "PL", "CH"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -6745,13 +6448,8 @@
         }
       ],
       "flag": "🇱🇮",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "CH"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "CH"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -6858,14 +6556,8 @@
         }
       ],
       "flag": "🇱🇺",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BE",
-        "FR",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BE", "FR", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -6958,19 +6650,8 @@
         }
       ],
       "flag": "🇦🇹",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CZ",
-        "DE",
-        "HU",
-        "IT",
-        "LI",
-        "SK",
-        "SI",
-        "CH"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CZ", "DE", "HU", "IT", "LI", "SK", "SI", "CH"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -7084,16 +6765,8 @@
         }
       ],
       "flag": "🇨🇭",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "FR",
-        "IT",
-        "LI",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "FR", "IT", "LI", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -7207,12 +6880,8 @@
         }
       ],
       "flag": "🇻🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "IT"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["IT"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -7275,9 +6944,7 @@
         }
       ],
       "flag": "🇲🇻",
-      "timezones": [
-        "UTC+05:00"
-      ],
+      "timezones": ["UTC+05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -7341,13 +7008,8 @@
         }
       ],
       "flag": "🇧🇹",
-      "timezones": [
-        "UTC+06:00"
-      ],
-      "borders": [
-        "CN",
-        "IN"
-      ],
+      "timezones": ["UTC+06:00"],
+      "borders": ["CN", "IN"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -7415,15 +7077,8 @@
         }
       ],
       "flag": "🇬🇷",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AL",
-        "BG",
-        "TR",
-        "MK"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["AL", "BG", "TR", "MK"],
       "is_landlocked": false,
       "postal_code_format": "### ##",
       "postal_code_regex": "^(\\d{5})$",
@@ -7505,9 +7160,7 @@
         }
       ],
       "flag": "🇨🇾",
-      "timezones": [
-        "UTC+02:00"
-      ],
+      "timezones": ["UTC+02:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -8028,9 +7681,7 @@
         }
       ],
       "flag": "🇦🇸",
-      "timezones": [
-        "UTC-11:00"
-      ],
+      "timezones": ["UTC-11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -8544,9 +8195,7 @@
         }
       ],
       "flag": "🇦🇮",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -9587,9 +9236,7 @@
         }
       ],
       "flag": "🇦🇬",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -10626,9 +10273,7 @@
         }
       ],
       "flag": "🇧🇸",
-      "timezones": [
-        "UTC-05:00"
-      ],
+      "timezones": ["UTC-05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -11142,9 +10787,7 @@
         }
       ],
       "flag": "🇧🇧",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "BB#####",
@@ -11665,13 +11308,8 @@
         }
       ],
       "flag": "🇧🇿",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "GT",
-        "MX"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["GT", "MX"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -12184,9 +11822,7 @@
         }
       ],
       "flag": "🇧🇲",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@@ ##",
@@ -12707,15 +12343,8 @@
         }
       ],
       "flag": "🇧🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "NA",
-        "ZA",
-        "ZM",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["NA", "ZA", "ZM", "ZW"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -13226,9 +12855,7 @@
         }
       ],
       "flag": "🇮🇴",
-      "timezones": [
-        "UTC+06:00"
-      ],
+      "timezones": ["UTC+06:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -13749,9 +13376,7 @@
         }
       ],
       "flag": "🇨🇰",
-      "timezones": [
-        "UTC-10:00"
-      ],
+      "timezones": ["UTC-10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -14279,9 +13904,7 @@
         }
       ],
       "flag": "🇨🇼",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -14795,9 +14418,7 @@
         }
       ],
       "flag": "🇩🇲",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -15367,14 +14988,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -15894,13 +15509,8 @@
         }
       ],
       "flag": "🇸🇿",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "MZ",
-        "ZA"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["MZ", "ZA"],
       "is_landlocked": true,
       "postal_code_format": "@###",
       "postal_code_regex": "^([A-Z]\\d{3})$",
@@ -16413,9 +16023,7 @@
         }
       ],
       "flag": "🇫🇰",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -16950,9 +16558,7 @@
         }
       ],
       "flag": "🇫🇯",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -17464,10 +17070,7 @@
         }
       ],
       "flag": "🇫🇲",
-      "timezones": [
-        "UTC+10:00",
-        "UTC+11:00"
-      ],
+      "timezones": ["UTC+10:00", "UTC+11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -17981,12 +17584,8 @@
         }
       ],
       "flag": "🇬🇲",
-      "timezones": [
-        "UTC+00:00"
-      ],
-      "borders": [
-        "SN"
-      ],
+      "timezones": ["UTC+00:00"],
+      "borders": ["SN"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -18499,14 +18098,8 @@
         }
       ],
       "flag": "🇬🇭",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "BF",
-        "CI",
-        "TG"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["BF", "CI", "TG"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -19019,12 +18612,8 @@
         }
       ],
       "flag": "🇬🇮",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "ES"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["ES"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -19537,9 +19126,7 @@
         }
       ],
       "flag": "🇬🇩",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -20067,9 +19654,7 @@
         }
       ],
       "flag": "🇬🇺",
-      "timezones": [
-        "UTC+10:00"
-      ],
+      "timezones": ["UTC+10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "969##",
@@ -20590,9 +20175,7 @@
         }
       ],
       "flag": "🇬🇬",
-      "timezones": [
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
@@ -21106,14 +20689,8 @@
         }
       ],
       "flag": "🇬🇾",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "BR",
-        "SR",
-        "VE"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["BR", "SR", "VE"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -21624,9 +21201,7 @@
         }
       ],
       "flag": "🇭🇲",
-      "timezones": [
-        "UTC+05:00"
-      ],
+      "timezones": ["UTC+05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -22147,12 +21722,8 @@
         }
       ],
       "flag": "🇭🇰",
-      "timezones": [
-        "UTC+08:00"
-      ],
-      "borders": [
-        "CN"
-      ],
+      "timezones": ["UTC+08:00"],
+      "borders": ["CN"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -22672,17 +22243,8 @@
         }
       ],
       "flag": "🇮🇳",
-      "timezones": [
-        "UTC+05:30"
-      ],
-      "borders": [
-        "BD",
-        "BT",
-        "MM",
-        "CN",
-        "NP",
-        "PK"
-      ],
+      "timezones": ["UTC+05:30"],
+      "borders": ["BD", "BT", "MM", "CN", "NP", "PK"],
       "is_landlocked": false,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -23202,9 +22764,7 @@
         }
       ],
       "flag": "🇮🇲",
-      "timezones": [
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
@@ -23725,12 +23285,8 @@
         }
       ],
       "flag": "🇮🇪",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "GB"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["GB"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -24243,9 +23799,7 @@
         }
       ],
       "flag": "🇯🇲",
-      "timezones": [
-        "UTC-05:00"
-      ],
+      "timezones": ["UTC-05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -24766,9 +24320,7 @@
         }
       ],
       "flag": "🇯🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
@@ -25282,9 +24834,7 @@
         }
       ],
       "flag": "🇻🇬",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -25798,9 +25348,7 @@
         }
       ],
       "flag": "🇻🇮",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -26314,9 +25862,7 @@
         }
       ],
       "flag": "🇰🇾",
-      "timezones": [
-        "UTC-05:00"
-      ],
+      "timezones": ["UTC-05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -26837,17 +26383,8 @@
         }
       ],
       "flag": "🇨🇲",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CF",
-        "TD",
-        "CG",
-        "GQ",
-        "GA",
-        "NG"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CF", "TD", "CG", "GQ", "GA", "NG"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -27375,9 +26912,7 @@
         "UTC-04:00",
         "UTC-03:30"
       ],
-      "borders": [
-        "US"
-      ],
+      "borders": ["US"],
       "is_landlocked": false,
       "postal_code_format": "@#@ #@#",
       "postal_code_regex": "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ",
@@ -27897,16 +27432,8 @@
         }
       ],
       "flag": "🇰🇪",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "ET",
-        "SO",
-        "SS",
-        "TZ",
-        "UG"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["ET", "SO", "SS", "TZ", "UG"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -28419,11 +27946,7 @@
         }
       ],
       "flag": "🇰🇮",
-      "timezones": [
-        "UTC+12:00",
-        "UTC+13:00",
-        "UTC+14:00"
-      ],
+      "timezones": ["UTC+12:00", "UTC+13:00", "UTC+14:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -28935,11 +28458,7 @@
         }
       ],
       "flag": "🇺🇲",
-      "timezones": [
-        "UTC-11:00",
-        "UTC-10:00",
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC-11:00", "UTC-10:00", "UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -29453,9 +28972,7 @@
         }
       ],
       "flag": "🇨🇨",
-      "timezones": [
-        "UTC+06:30"
-      ],
+      "timezones": ["UTC+06:30"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -29976,12 +29493,8 @@
         }
       ],
       "flag": "🇱🇸",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "ZA"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["ZA"],
       "is_landlocked": true,
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
@@ -30494,14 +30007,8 @@
         }
       ],
       "flag": "🇱🇷",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "GN",
-        "CI",
-        "SL"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["GN", "CI", "SL"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -31021,14 +30528,8 @@
         }
       ],
       "flag": "🇲🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "MZ",
-        "TZ",
-        "ZM"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["MZ", "TZ", "ZM"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -31548,9 +31049,7 @@
         }
       ],
       "flag": "🇲🇹",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@@@ ###|@@@ ##",
@@ -32071,9 +31570,7 @@
         }
       ],
       "flag": "🇲🇭",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -32587,9 +32084,7 @@
         }
       ],
       "flag": "🇲🇺",
-      "timezones": [
-        "UTC+04:00"
-      ],
+      "timezones": ["UTC+04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -33103,9 +32598,7 @@
         }
       ],
       "flag": "🇲🇸",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -33626,15 +33119,8 @@
         }
       ],
       "flag": "🇳🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AO",
-        "BW",
-        "ZA",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AO", "BW", "ZA", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -34154,9 +33640,7 @@
         }
       ],
       "flag": "🇳🇷",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -35197,15 +34681,8 @@
         }
       ],
       "flag": "🇳🇬",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BJ",
-        "CM",
-        "TD",
-        "NE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BJ", "CM", "TD", "NE"],
       "is_landlocked": false,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -35718,9 +35195,7 @@
         }
       ],
       "flag": "🇳🇺",
-      "timezones": [
-        "UTC-11:00"
-      ],
+      "timezones": ["UTC-11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -36241,9 +35716,7 @@
         }
       ],
       "flag": "🇲🇵",
-      "timezones": [
-        "UTC+10:00"
-      ],
+      "timezones": ["UTC+10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -36757,9 +36230,7 @@
         }
       ],
       "flag": "🇳🇫",
-      "timezones": [
-        "UTC+11:30"
-      ],
+      "timezones": ["UTC+11:30"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -37280,15 +36751,8 @@
         }
       ],
       "flag": "🇵🇰",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "CN",
-        "IN",
-        "IR"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "CN", "IN", "IR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -37799,9 +37263,7 @@
         }
       ],
       "flag": "🇵🇼",
-      "timezones": [
-        "UTC+09:00"
-      ],
+      "timezones": ["UTC+09:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "96940",
@@ -38315,12 +37777,8 @@
         }
       ],
       "flag": "🇵🇬",
-      "timezones": [
-        "UTC+10:00"
-      ],
-      "borders": [
-        "ID"
-      ],
+      "timezones": ["UTC+10:00"],
+      "borders": ["ID"],
       "is_landlocked": false,
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
@@ -38833,9 +38291,7 @@
         }
       ],
       "flag": "🇵🇭",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -39349,9 +38805,7 @@
         }
       ],
       "flag": "🇵🇳",
-      "timezones": [
-        "UTC-08:00"
-      ],
+      "timezones": ["UTC-08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -39872,9 +39326,7 @@
         }
       ],
       "flag": "🇵🇷",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####-####",
@@ -40402,15 +39854,8 @@
         }
       ],
       "flag": "🇷🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BI",
-        "CD",
-        "TZ",
-        "UG"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BI", "CD", "TZ", "UG"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -40937,12 +40382,8 @@
         }
       ],
       "flag": "🇲🇫",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "SX"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["SX"],
       "is_landlocked": false,
       "postal_code_format": "### ###",
       "postal_code_regex": "",
@@ -41455,9 +40896,7 @@
         }
       ],
       "flag": "🇸🇧",
-      "timezones": [
-        "UTC+11:00"
-      ],
+      "timezones": ["UTC+11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -41971,19 +41410,8 @@
         }
       ],
       "flag": "🇿🇲",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AO",
-        "BW",
-        "CD",
-        "MW",
-        "MZ",
-        "NA",
-        "TZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["AO", "BW", "CD", "MW", "MZ", "NA", "TZ", "ZW"],
       "is_landlocked": true,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -42503,9 +41931,7 @@
         }
       ],
       "flag": "🇼🇸",
-      "timezones": [
-        "UTC+13:00"
-      ],
+      "timezones": ["UTC+13:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -43026,9 +42452,7 @@
         }
       ],
       "flag": "🇸🇨",
-      "timezones": [
-        "UTC+04:00"
-      ],
+      "timezones": ["UTC+04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -43542,13 +42966,8 @@
         }
       ],
       "flag": "🇸🇱",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "GN",
-        "LR"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["GN", "LR"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -44075,15 +43494,8 @@
         }
       ],
       "flag": "🇿🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "MZ",
-        "ZA",
-        "ZM"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "MZ", "ZA", "ZM"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -44617,9 +44029,7 @@
         }
       ],
       "flag": "🇸🇬",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "######",
@@ -45140,12 +44550,8 @@
         }
       ],
       "flag": "🇸🇽",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "MF"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["MF"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -45658,9 +45064,7 @@
         }
       ],
       "flag": "🇸🇭",
-      "timezones": [
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "STHL 1ZZ",
@@ -46174,9 +45578,7 @@
         }
       ],
       "flag": "🇰🇳",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -46690,9 +46092,7 @@
         }
       ],
       "flag": "🇱🇨",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -47206,9 +46606,7 @@
         }
       ],
       "flag": "🇻🇨",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -47785,17 +47183,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -48315,18 +47704,8 @@
         }
       ],
       "flag": "🇸🇩",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "CF",
-        "TD",
-        "EG",
-        "ER",
-        "ET",
-        "LY",
-        "SS"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["CF", "TD", "EG", "ER", "ET", "LY", "SS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -48839,9 +48218,7 @@
         }
       ],
       "flag": "🇬🇸",
-      "timezones": [
-        "UTC-02:00"
-      ],
+      "timezones": ["UTC-02:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -49355,17 +48732,8 @@
         }
       ],
       "flag": "🇸🇸",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "CF",
-        "CD",
-        "ET",
-        "KE",
-        "SD",
-        "UG"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["CF", "CD", "ET", "KE", "SD", "UG"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -49885,19 +49253,8 @@
         }
       ],
       "flag": "🇹🇿",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "BI",
-        "CD",
-        "KE",
-        "MW",
-        "MZ",
-        "RW",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["BI", "CD", "KE", "MW", "MZ", "RW", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -50408,9 +49765,7 @@
         }
       ],
       "flag": "🇹🇰",
-      "timezones": [
-        "UTC+13:00"
-      ],
+      "timezones": ["UTC+13:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -50931,9 +50286,7 @@
         }
       ],
       "flag": "🇹🇴",
-      "timezones": [
-        "UTC+13:00"
-      ],
+      "timezones": ["UTC+13:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -51447,9 +50800,7 @@
         }
       ],
       "flag": "🇹🇹",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -51963,9 +51314,7 @@
         }
       ],
       "flag": "🇹🇨",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "TKCA 1ZZ",
@@ -52479,9 +51828,7 @@
         }
       ],
       "flag": "🇹🇻",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -53002,16 +52349,8 @@
         }
       ],
       "flag": "🇺🇬",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "CD",
-        "KE",
-        "RW",
-        "SS",
-        "TZ"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["CD", "KE", "RW", "SS", "TZ"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -53538,9 +52877,7 @@
         }
       ],
       "flag": "🇻🇺",
-      "timezones": [
-        "UTC+11:00"
-      ],
+      "timezones": ["UTC+11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -54067,10 +53404,7 @@
         "UTC+10:00",
         "UTC+12:00"
       ],
-      "borders": [
-        "CA",
-        "MX"
-      ],
+      "borders": ["CA", "MX"],
       "is_landlocked": false,
       "postal_code_format": "#####-####",
       "postal_code_regex": "^\\d{5}(-\\d{4})?$",
@@ -54594,9 +53928,7 @@
         "UTC+02:00",
         "UTC+06:00"
       ],
-      "borders": [
-        "IE"
-      ],
+      "borders": ["IE"],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
       "postal_code_regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
@@ -55109,9 +54441,7 @@
         }
       ],
       "flag": "🇨🇽",
-      "timezones": [
-        "UTC+07:00"
-      ],
+      "timezones": ["UTC+07:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -55175,13 +54505,8 @@
         }
       ],
       "flag": "🇪🇪",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "LV",
-        "RU"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["LV", "RU"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -55265,13 +54590,8 @@
         }
       ],
       "flag": "🇬🇶",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "GA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "GA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -55334,9 +54654,7 @@
         }
       ],
       "flag": "🇫🇴",
-      "timezones": [
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "FO-###",
@@ -55400,18 +54718,8 @@
         }
       ],
       "flag": "🇮🇷",
-      "timezones": [
-        "UTC+03:30"
-      ],
-      "borders": [
-        "AF",
-        "AM",
-        "AZ",
-        "IQ",
-        "PK",
-        "TR",
-        "TM"
-      ],
+      "timezones": ["UTC+03:30"],
+      "borders": ["AF", "AM", "AZ", "IQ", "PK", "TR", "TM"],
       "is_landlocked": false,
       "postal_code_format": "##########",
       "postal_code_regex": "^(\\d{10})$",
@@ -55495,9 +54803,7 @@
         }
       ],
       "flag": "🇫🇯",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -55568,14 +54874,8 @@
         }
       ],
       "flag": "🇫🇮",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "NO",
-        "SE",
-        "RU"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["NO", "SE", "RU"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(?:FI)*(\\d{5})$",
@@ -55879,13 +55179,8 @@
         }
       ],
       "flag": "🇬🇶",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "GA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "GA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -56182,15 +55477,8 @@
         }
       ],
       "flag": "🇧🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FR",
-        "DE",
-        "LU",
-        "NL"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FR", "DE", "LU", "NL"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -56473,15 +55761,8 @@
         }
       ],
       "flag": "🇧🇯",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BF",
-        "NE",
-        "NG",
-        "TG"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BF", "NE", "NG", "TG"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -56771,17 +56052,8 @@
         }
       ],
       "flag": "🇧🇫",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "BJ",
-        "CI",
-        "GH",
-        "ML",
-        "NE",
-        "TG"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["BJ", "CI", "GH", "ML", "NE", "TG"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -57071,14 +56343,8 @@
         }
       ],
       "flag": "🇧🇮",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "CD",
-        "RW",
-        "TZ"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["CD", "RW", "TZ"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -57389,21 +56655,8 @@
         }
       ],
       "flag": "🇨🇩",
-      "timezones": [
-        "UTC+01:00",
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AO",
-        "BI",
-        "CF",
-        "CG",
-        "RW",
-        "SS",
-        "TZ",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00", "UTC+02:00"],
+      "borders": ["AO", "BI", "CF", "CG", "RW", "SS", "TZ", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -57693,14 +56946,8 @@
         }
       ],
       "flag": "🇩🇯",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "ER",
-        "ET",
-        "SO"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["ER", "ET", "SO"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -57983,16 +57230,8 @@
         }
       ],
       "flag": "🇨🇮",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "BF",
-        "GH",
-        "GN",
-        "LR",
-        "ML"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["BF", "GH", "GN", "LR", "ML"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -58291,16 +57530,7 @@
         "UTC+11:00",
         "UTC+12:00"
       ],
-      "borders": [
-        "AD",
-        "BE",
-        "DE",
-        "IT",
-        "LU",
-        "MC",
-        "ES",
-        "CH"
-      ],
+      "borders": ["AD", "BE", "DE", "IT", "LU", "MC", "ES", "CH"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -58583,13 +57813,8 @@
         }
       ],
       "flag": "🇬🇫",
-      "timezones": [
-        "UTC-03:00"
-      ],
-      "borders": [
-        "BR",
-        "SR"
-      ],
+      "timezones": ["UTC-03:00"],
+      "borders": ["BR", "SR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^((97|98)3\\d{2})$",
@@ -58872,11 +58097,7 @@
         }
       ],
       "flag": "🇵🇫",
-      "timezones": [
-        "UTC-10:00",
-        "UTC-09:30",
-        "UTC-09:00"
-      ],
+      "timezones": ["UTC-10:00", "UTC-09:30", "UTC-09:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -59160,9 +58381,7 @@
         }
       ],
       "flag": "🇹🇫",
-      "timezones": [
-        "UTC+05:00"
-      ],
+      "timezones": ["UTC+05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -59446,12 +58665,8 @@
         }
       ],
       "flag": "🇲🇨",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FR"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -59734,14 +58949,8 @@
         }
       ],
       "flag": "🇬🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "CG",
-        "GQ"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "CG", "GQ"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -60024,9 +59233,7 @@
         }
       ],
       "flag": "🇬🇵",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -60317,9 +59524,7 @@
         }
       ],
       "flag": "🇬🇬",
-      "timezones": [
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
@@ -60610,17 +59815,8 @@
         }
       ],
       "flag": "🇬🇳",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "CI",
-        "GW",
-        "LR",
-        "ML",
-        "SN",
-        "SL"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["CI", "GW", "LR", "ML", "SN", "SL"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -60910,12 +60106,8 @@
         }
       ],
       "flag": "🇭🇹",
-      "timezones": [
-        "UTC-05:00"
-      ],
-      "borders": [
-        "DO"
-      ],
+      "timezones": ["UTC-05:00"],
+      "borders": ["DO"],
       "is_landlocked": false,
       "postal_code_format": "HT####",
       "postal_code_regex": "^(?:HT)*(\\d{4})$",
@@ -61205,9 +60397,7 @@
         }
       ],
       "flag": "🇯🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
@@ -61498,17 +60688,8 @@
         }
       ],
       "flag": "🇨🇲",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CF",
-        "TD",
-        "CG",
-        "GQ",
-        "GA",
-        "NG"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CF", "TD", "CG", "GQ", "GA", "NG"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -61806,9 +60987,7 @@
         "UTC-04:00",
         "UTC-03:30"
       ],
-      "borders": [
-        "US"
-      ],
+      "borders": ["US"],
       "is_landlocked": false,
       "postal_code_format": "@#@ #@#",
       "postal_code_regex": "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ",
@@ -62098,9 +61277,7 @@
         }
       ],
       "flag": "🇰🇲",
-      "timezones": [
-        "UTC+03:00"
-      ],
+      "timezones": ["UTC+03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -62391,13 +61568,8 @@
         }
       ],
       "flag": "🇱🇧",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "IL",
-        "SY"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["IL", "SY"],
       "is_landlocked": false,
       "postal_code_format": "#### ####|####",
       "postal_code_regex": "^(\\d{4}(\\d{4})?)$",
@@ -62694,14 +61866,8 @@
         }
       ],
       "flag": "🇱🇺",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BE",
-        "FR",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BE", "FR", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -62991,9 +62157,7 @@
         }
       ],
       "flag": "🇲🇬",
-      "timezones": [
-        "UTC+03:00"
-      ],
+      "timezones": ["UTC+03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "###",
@@ -63277,18 +62441,8 @@
         }
       ],
       "flag": "🇲🇱",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "DZ",
-        "BF",
-        "GN",
-        "CI",
-        "MR",
-        "NE",
-        "SN"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["DZ", "BF", "GN", "CI", "MR", "NE", "SN"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -63571,9 +62725,7 @@
         }
       ],
       "flag": "🇲🇶",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -63857,9 +63009,7 @@
         }
       ],
       "flag": "🇾🇹",
-      "timezones": [
-        "UTC+03:00"
-      ],
+      "timezones": ["UTC+03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -64143,9 +63293,7 @@
         }
       ],
       "flag": "🇳🇨",
-      "timezones": [
-        "UTC+11:00"
-      ],
+      "timezones": ["UTC+11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -64429,18 +63577,8 @@
         }
       ],
       "flag": "🇳🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "DZ",
-        "BJ",
-        "BF",
-        "TD",
-        "LY",
-        "ML",
-        "NG"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["DZ", "BJ", "BF", "TD", "LY", "ML", "NG"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -64730,16 +63868,8 @@
         }
       ],
       "flag": "🇨🇬",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AO",
-        "CM",
-        "CF",
-        "CD",
-        "GA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AO", "CM", "CF", "CD", "GA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -65022,9 +64152,7 @@
         }
       ],
       "flag": "🇷🇪",
-      "timezones": [
-        "UTC+04:00"
-      ],
+      "timezones": ["UTC+04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -65322,15 +64450,8 @@
         }
       ],
       "flag": "🇷🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BI",
-        "CD",
-        "TZ",
-        "UG"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BI", "CD", "TZ", "UG"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -65627,12 +64748,8 @@
         }
       ],
       "flag": "🇲🇫",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "SX"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["SX"],
       "is_landlocked": false,
       "postal_code_format": "### ###",
       "postal_code_regex": "",
@@ -65915,9 +65032,7 @@
         }
       ],
       "flag": "🇧🇱",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "### ###",
@@ -66222,16 +65337,8 @@
         }
       ],
       "flag": "🇨🇭",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "FR",
-        "IT",
-        "LI",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "FR", "IT", "LI", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -66514,16 +65621,8 @@
         }
       ],
       "flag": "🇸🇳",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "GM",
-        "GN",
-        "GW",
-        "ML",
-        "MR"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["GM", "GN", "GW", "ML", "MR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -66813,9 +65912,7 @@
         }
       ],
       "flag": "🇸🇨",
-      "timezones": [
-        "UTC+04:00"
-      ],
+      "timezones": ["UTC+04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -67099,9 +66196,7 @@
         }
       ],
       "flag": "🇵🇲",
-      "timezones": [
-        "UTC-03:00"
-      ],
+      "timezones": ["UTC-03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -67385,14 +66480,8 @@
         }
       ],
       "flag": "🇹🇬",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "BJ",
-        "BF",
-        "GH"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["BJ", "BF", "GH"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -67682,17 +66771,8 @@
         }
       ],
       "flag": "🇹🇩",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "CF",
-        "LY",
-        "NE",
-        "NG",
-        "SD"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "CF", "LY", "NE", "NG", "SD"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -67989,9 +67069,7 @@
         }
       ],
       "flag": "🇻🇺",
-      "timezones": [
-        "UTC+11:00"
-      ],
+      "timezones": ["UTC+11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -68296,12 +67374,8 @@
         }
       ],
       "flag": "🇻🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "IT"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["IT"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -68584,9 +67658,7 @@
         }
       ],
       "flag": "🇼🇫",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -68877,17 +67949,8 @@
         }
       ],
       "flag": "🇨🇫",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "TD",
-        "CD",
-        "CG",
-        "SS",
-        "SD"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "TD", "CD", "CG", "SS", "SD"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -68962,17 +68025,8 @@
         }
       ],
       "flag": "🇧🇫",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "BJ",
-        "CI",
-        "GH",
-        "ML",
-        "NE",
-        "TG"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["BJ", "CI", "GH", "ML", "NE", "TG"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -69047,17 +68101,8 @@
         }
       ],
       "flag": "🇬🇳",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "CI",
-        "GW",
-        "LR",
-        "ML",
-        "SN",
-        "SL"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["CI", "GW", "LR", "ML", "SN", "SL"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -69127,12 +68172,8 @@
         }
       ],
       "flag": "🇮🇪",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "GB"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["GB"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -69202,9 +68243,7 @@
         }
       ],
       "flag": "🇮🇲",
-      "timezones": [
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
@@ -69280,16 +68319,8 @@
         }
       ],
       "flag": "🇦🇷",
-      "timezones": [
-        "UTC-03:00"
-      ],
-      "borders": [
-        "BO",
-        "BR",
-        "CL",
-        "PY",
-        "UY"
-      ],
+      "timezones": ["UTC-03:00"],
+      "borders": ["BO", "BR", "CL", "PY", "UY"],
       "is_landlocked": false,
       "postal_code_format": "@####@@@",
       "postal_code_regex": "^([A-Z]\\d{4}[A-Z]{3})$",
@@ -69364,14 +68395,8 @@
         }
       ],
       "flag": "🇵🇾",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "AR",
-        "BO",
-        "BR"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["AR", "BO", "BR"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -69441,12 +68466,8 @@
         }
       ],
       "flag": "🇭🇹",
-      "timezones": [
-        "UTC-05:00"
-      ],
-      "borders": [
-        "DO"
-      ],
+      "timezones": ["UTC-05:00"],
+      "borders": ["DO"],
       "is_landlocked": false,
       "postal_code_format": "HT####",
       "postal_code_regex": "^(?:HT)*(\\d{4})$",
@@ -69516,16 +68537,8 @@
         }
       ],
       "flag": "🇮🇱",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "EG",
-        "JO",
-        "LB",
-        "PS",
-        "SY"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["EG", "JO", "LB", "PS", "SY"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -69609,9 +68622,7 @@
         }
       ],
       "flag": "🇫🇯",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -69682,17 +68693,8 @@
         }
       ],
       "flag": "🇮🇳",
-      "timezones": [
-        "UTC+05:30"
-      ],
-      "borders": [
-        "BD",
-        "BT",
-        "MM",
-        "CN",
-        "NP",
-        "PK"
-      ],
+      "timezones": ["UTC+05:30"],
+      "borders": ["BD", "BT", "MM", "CN", "NP", "PK"],
       "is_landlocked": false,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -69779,14 +68781,8 @@
         }
       ],
       "flag": "🇧🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "HR",
-        "ME",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["HR", "ME", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -69859,16 +68855,8 @@
         }
       ],
       "flag": "🇭🇷",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BA",
-        "HU",
-        "ME",
-        "RS",
-        "SI"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BA", "HU", "ME", "RS", "SI"],
       "is_landlocked": false,
       "postal_code_format": "HR-#####",
       "postal_code_regex": "^(?:HR)*(\\d{5})$",
@@ -69962,16 +68950,8 @@
         }
       ],
       "flag": "🇲🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "BA",
-        "HR",
-        "XK",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "BA", "HR", "XK", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -70034,18 +69014,8 @@
         }
       ],
       "flag": "🇭🇺",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "HR",
-        "RO",
-        "RS",
-        "SK",
-        "SI",
-        "UA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "HR", "RO", "RS", "SK", "SI", "UA"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -70113,15 +69083,8 @@
         }
       ],
       "flag": "🇦🇲",
-      "timezones": [
-        "UTC+04:00"
-      ],
-      "borders": [
-        "AZ",
-        "GE",
-        "IR",
-        "TR"
-      ],
+      "timezones": ["UTC+04:00"],
+      "borders": ["AZ", "GE", "IR", "TR"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -70203,9 +69166,7 @@
         }
       ],
       "flag": "🇨🇾",
-      "timezones": [
-        "UTC+02:00"
-      ],
+      "timezones": ["UTC+02:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -70269,16 +69230,8 @@
         }
       ],
       "flag": "🇮🇩",
-      "timezones": [
-        "UTC+07:00",
-        "UTC+08:00",
-        "UTC+09:00"
-      ],
-      "borders": [
-        "TL",
-        "MY",
-        "PG"
-      ],
+      "timezones": ["UTC+07:00", "UTC+08:00", "UTC+09:00"],
+      "borders": ["TL", "MY", "PG"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -70341,9 +69294,7 @@
         }
       ],
       "flag": "🇮🇸",
-      "timezones": [
-        "UTC"
-      ],
+      "timezones": ["UTC"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "###",
@@ -70422,17 +69373,8 @@
         }
       ],
       "flag": "🇮🇹",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "FR",
-        "SM",
-        "SI",
-        "CH",
-        "VA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "FR", "SM", "SI", "CH", "VA"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -70510,12 +69452,8 @@
         }
       ],
       "flag": "🇸🇲",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "IT"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["IT"],
       "is_landlocked": true,
       "postal_code_format": "4789#",
       "postal_code_regex": "^(4789\\d)$",
@@ -70614,16 +69552,8 @@
         }
       ],
       "flag": "🇨🇭",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "FR",
-        "IT",
-        "LI",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "FR", "IT", "LI", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -70722,12 +69652,8 @@
         }
       ],
       "flag": "🇻🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "IT"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["IT"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -70790,9 +69716,7 @@
         }
       ],
       "flag": "🇯🇵",
-      "timezones": [
-        "UTC+09:00"
-      ],
+      "timezones": ["UTC+09:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "###-####",
@@ -70856,12 +69780,7 @@
         }
       ],
       "flag": "🇬🇱",
-      "timezones": [
-        "UTC-04:00",
-        "UTC-03:00",
-        "UTC-01:00",
-        "UTC+00:00"
-      ],
+      "timezones": ["UTC-04:00", "UTC-03:00", "UTC-01:00", "UTC+00:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -70925,15 +69844,8 @@
         }
       ],
       "flag": "🇬🇪",
-      "timezones": [
-        "UTC+04:00"
-      ],
-      "borders": [
-        "AM",
-        "AZ",
-        "RU",
-        "TR"
-      ],
+      "timezones": ["UTC+04:00"],
+      "borders": ["AM", "AZ", "RU", "TR"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -71003,17 +69915,8 @@
         }
       ],
       "flag": "🇰🇿",
-      "timezones": [
-        "UTC+05:00",
-        "UTC+06:00"
-      ],
-      "borders": [
-        "CN",
-        "KG",
-        "RU",
-        "TM",
-        "UZ"
-      ],
+      "timezones": ["UTC+05:00", "UTC+06:00"],
+      "borders": ["CN", "KG", "RU", "TM", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -71076,14 +69979,8 @@
         }
       ],
       "flag": "🇰🇭",
-      "timezones": [
-        "UTC+07:00"
-      ],
-      "borders": [
-        "LA",
-        "TH",
-        "VN"
-      ],
+      "timezones": ["UTC+07:00"],
+      "borders": ["LA", "TH", "VN"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -71160,15 +70057,8 @@
         }
       ],
       "flag": "🇷🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BI",
-        "CD",
-        "TZ",
-        "UG"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BI", "CD", "TZ", "UG"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -71238,15 +70128,8 @@
         }
       ],
       "flag": "🇰🇬",
-      "timezones": [
-        "UTC+06:00"
-      ],
-      "borders": [
-        "CN",
-        "KZ",
-        "TJ",
-        "UZ"
-      ],
+      "timezones": ["UTC+06:00"],
+      "borders": ["CN", "KZ", "TJ", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -71337,21 +70220,8 @@
         }
       ],
       "flag": "🇨🇩",
-      "timezones": [
-        "UTC+01:00",
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AO",
-        "BI",
-        "CF",
-        "CG",
-        "RW",
-        "SS",
-        "TZ",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00", "UTC+02:00"],
+      "borders": ["AO", "BI", "CF", "CG", "RW", "SS", "TZ", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -71419,14 +70289,8 @@
         }
       ],
       "flag": "🇰🇵",
-      "timezones": [
-        "UTC+09:00"
-      ],
-      "borders": [
-        "CN",
-        "KR",
-        "RU"
-      ],
+      "timezones": ["UTC+09:00"],
+      "borders": ["CN", "KR", "RU"],
       "is_landlocked": false,
       "postal_code_format": "###-###",
       "postal_code_regex": "^(\\d{6})$",
@@ -71494,12 +70358,8 @@
         }
       ],
       "flag": "🇰🇷",
-      "timezones": [
-        "UTC+09:00"
-      ],
-      "borders": [
-        "KP"
-      ],
+      "timezones": ["UTC+09:00"],
+      "borders": ["KP"],
       "is_landlocked": false,
       "postal_code_format": "SEOUL ###-###",
       "postal_code_regex": "^(?:SEOUL)*(\\d{6})$",
@@ -71618,14 +70478,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -71695,17 +70549,8 @@
         }
       ],
       "flag": "🇮🇶",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "IR",
-        "JO",
-        "KW",
-        "SA",
-        "SY",
-        "TR"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["IR", "JO", "KW", "SA", "SY", "TR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -71768,16 +70613,8 @@
         }
       ],
       "flag": "🇱🇦",
-      "timezones": [
-        "UTC+07:00"
-      ],
-      "borders": [
-        "MM",
-        "KH",
-        "CN",
-        "TH",
-        "VN"
-      ],
+      "timezones": ["UTC+07:00"],
+      "borders": ["MM", "KH", "CN", "TH", "VN"],
       "is_landlocked": true,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -71861,12 +70698,8 @@
         }
       ],
       "flag": "🇻🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "IT"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["IT"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -71929,15 +70762,8 @@
         }
       ],
       "flag": "🇱🇻",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BY",
-        "EE",
-        "LT",
-        "RU"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BY", "EE", "LT", "RU"],
       "is_landlocked": false,
       "postal_code_format": "LV-####",
       "postal_code_regex": "^(?:LV)*(\\d{4})$",
@@ -72033,21 +70859,8 @@
         }
       ],
       "flag": "🇨🇩",
-      "timezones": [
-        "UTC+01:00",
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AO",
-        "BI",
-        "CF",
-        "CG",
-        "RW",
-        "SS",
-        "TZ",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00", "UTC+02:00"],
+      "borders": ["AO", "BI", "CF", "CG", "RW", "SS", "TZ", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -72122,16 +70935,8 @@
         }
       ],
       "flag": "🇨🇬",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AO",
-        "CM",
-        "CF",
-        "CD",
-        "GA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AO", "CM", "CF", "CD", "GA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -72194,15 +70999,8 @@
         }
       ],
       "flag": "🇱🇹",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BY",
-        "LV",
-        "PL",
-        "RU"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BY", "LV", "PL", "RU"],
       "is_landlocked": false,
       "postal_code_format": "LT-#####",
       "postal_code_regex": "^(?:LT)*(\\d{5})$",
@@ -72279,14 +71077,8 @@
         }
       ],
       "flag": "🇱🇺",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BE",
-        "FR",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BE", "FR", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -72377,21 +71169,8 @@
         }
       ],
       "flag": "🇨🇩",
-      "timezones": [
-        "UTC+01:00",
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AO",
-        "BI",
-        "CF",
-        "CG",
-        "RW",
-        "SS",
-        "TZ",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00", "UTC+02:00"],
+      "borders": ["AO", "BI", "CF", "CG", "RW", "SS", "TZ", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -72461,9 +71240,7 @@
         }
       ],
       "flag": "🇲🇭",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -72527,16 +71304,8 @@
         }
       ],
       "flag": "🇲🇰",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "BG",
-        "GR",
-        "XK",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "BG", "GR", "XK", "RS"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -72606,9 +71375,7 @@
         }
       ],
       "flag": "🇲🇬",
-      "timezones": [
-        "UTC+03:00"
-      ],
+      "timezones": ["UTC+03:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "###",
@@ -72679,9 +71446,7 @@
         }
       ],
       "flag": "🇲🇹",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "@@@ ###|@@@ ##",
@@ -72745,14 +71510,8 @@
         }
       ],
       "flag": "🇲🇳",
-      "timezones": [
-        "UTC+07:00",
-        "UTC+08:00"
-      ],
-      "borders": [
-        "CN",
-        "RU"
-      ],
+      "timezones": ["UTC+07:00", "UTC+08:00"],
+      "borders": ["CN", "RU"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -72897,12 +71656,8 @@
         }
       ],
       "flag": "🇧🇳",
-      "timezones": [
-        "UTC+08:00"
-      ],
-      "borders": [
-        "MY"
-      ],
+      "timezones": ["UTC+08:00"],
+      "borders": ["MY"],
       "is_landlocked": false,
       "postal_code_format": "@@####",
       "postal_code_regex": "^([A-Z]{2}\\d{4})$",
@@ -72991,9 +71746,7 @@
         }
       ],
       "flag": "🇸🇬",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "######",
@@ -73057,16 +71810,8 @@
         }
       ],
       "flag": "🇲🇲",
-      "timezones": [
-        "UTC+06:30"
-      ],
-      "borders": [
-        "BD",
-        "CN",
-        "IN",
-        "LA",
-        "TH"
-      ],
+      "timezones": ["UTC+06:30"],
+      "borders": ["BD", "CN", "IN", "LA", "TH"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -73136,9 +71881,7 @@
         }
       ],
       "flag": "🇳🇷",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -73265,17 +72008,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -73352,15 +72086,8 @@
         }
       ],
       "flag": "🇿🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "MZ",
-        "ZA",
-        "ZM"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "MZ", "ZA", "ZM"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -73423,13 +72150,8 @@
         }
       ],
       "flag": "🇳🇵",
-      "timezones": [
-        "UTC+05:45"
-      ],
-      "borders": [
-        "CN",
-        "IN"
-      ],
+      "timezones": ["UTC+05:45"],
+      "borders": ["CN", "IN"],
       "is_landlocked": true,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -73534,9 +72256,7 @@
         }
       ],
       "flag": "🇦🇼",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -73649,15 +72369,8 @@
         }
       ],
       "flag": "🇧🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FR",
-        "DE",
-        "LU",
-        "NL"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FR", "DE", "LU", "NL"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -73769,9 +72482,7 @@
         }
       ],
       "flag": "🇨🇼",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -73868,9 +72579,7 @@
         }
       ],
       "flag": "🇧🇶",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -73969,14 +72678,8 @@
         }
       ],
       "flag": "🇳🇱",
-      "timezones": [
-        "UTC-04:00",
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BE",
-        "DE"
-      ],
+      "timezones": ["UTC-04:00", "UTC+01:00"],
+      "borders": ["BE", "DE"],
       "is_landlocked": false,
       "postal_code_format": "#### @@",
       "postal_code_regex": "^(\\d{4}[A-Z]{2})$",
@@ -74088,12 +72791,8 @@
         }
       ],
       "flag": "🇲🇫",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "SX"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["SX"],
       "is_landlocked": false,
       "postal_code_format": "### ###",
       "postal_code_regex": "",
@@ -74198,12 +72897,8 @@
         }
       ],
       "flag": "🇸🇽",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "MF"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["MF"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -74301,14 +72996,8 @@
         }
       ],
       "flag": "🇸🇷",
-      "timezones": [
-        "UTC-03:00"
-      ],
-      "borders": [
-        "BR",
-        "GF",
-        "GY"
-      ],
+      "timezones": ["UTC-03:00"],
+      "borders": ["BR", "GF", "GY"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -74388,9 +73077,7 @@
         }
       ],
       "flag": "🇧🇻",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -74473,14 +73160,8 @@
         }
       ],
       "flag": "🇳🇴",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FI",
-        "SE",
-        "RU"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FI", "SE", "RU"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -74560,9 +73241,7 @@
         }
       ],
       "flag": "🇧🇻",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -74645,14 +73324,8 @@
         }
       ],
       "flag": "🇳🇴",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FI",
-        "SE",
-        "RU"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FI", "SE", "RU"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -74737,9 +73410,7 @@
         }
       ],
       "flag": "🇧🇻",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -74827,14 +73498,8 @@
         }
       ],
       "flag": "🇳🇴",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FI",
-        "SE",
-        "RU"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FI", "SE", "RU"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -74907,9 +73572,7 @@
         }
       ],
       "flag": "🇸🇯",
-      "timezones": [
-        "UTC+01:00"
-      ],
+      "timezones": ["UTC+01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -75029,14 +73692,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -75106,14 +73763,8 @@
         }
       ],
       "flag": "🇲🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "MZ",
-        "TZ",
-        "ZM"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["MZ", "TZ", "ZM"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -75188,9 +73839,7 @@
         }
       ],
       "flag": "🇦🇼",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -75273,9 +73922,7 @@
         }
       ],
       "flag": "🇨🇼",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -75339,18 +73986,8 @@
         }
       ],
       "flag": "🇵🇱",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BY",
-        "CZ",
-        "DE",
-        "LT",
-        "RU",
-        "SK",
-        "UA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BY", "CZ", "DE", "LT", "RU", "SK", "UA"],
       "is_landlocked": false,
       "postal_code_format": "##-###",
       "postal_code_regex": "^(\\d{5})$",
@@ -75458,15 +74095,8 @@
         }
       ],
       "flag": "🇦🇴",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CG",
-        "CD",
-        "ZM",
-        "NA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CG", "CD", "ZM", "NA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -75595,13 +74225,8 @@
         }
       ],
       "flag": "🇬🇶",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "GA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "GA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -75709,24 +74334,8 @@
         }
       ],
       "flag": "🇧🇷",
-      "timezones": [
-        "UTC-05:00",
-        "UTC-04:00",
-        "UTC-03:00",
-        "UTC-02:00"
-      ],
-      "borders": [
-        "AR",
-        "BO",
-        "CO",
-        "GF",
-        "GY",
-        "PY",
-        "PE",
-        "SR",
-        "UY",
-        "VE"
-      ],
+      "timezones": ["UTC-05:00", "UTC-04:00", "UTC-03:00", "UTC-02:00"],
+      "borders": ["AR", "BO", "CO", "GF", "GY", "PY", "PE", "SR", "UY", "VE"],
       "is_landlocked": false,
       "postal_code_format": "#####-###",
       "postal_code_regex": "^(\\d{8})$",
@@ -75834,13 +74443,8 @@
         }
       ],
       "flag": "🇬🇼",
-      "timezones": [
-        "UTC"
-      ],
-      "borders": [
-        "GN",
-        "SN"
-      ],
+      "timezones": ["UTC"],
+      "borders": ["GN", "SN"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -75948,9 +74552,7 @@
         }
       ],
       "flag": "🇨🇻",
-      "timezones": [
-        "UTC-01:00"
-      ],
+      "timezones": ["UTC-01:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -76066,12 +74668,8 @@
         }
       ],
       "flag": "🇲🇴",
-      "timezones": [
-        "UTC+08:00"
-      ],
-      "borders": [
-        "CN"
-      ],
+      "timezones": ["UTC+08:00"],
+      "borders": ["CN"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -76179,17 +74777,8 @@
         }
       ],
       "flag": "🇲🇿",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "MW",
-        "ZA",
-        "SZ",
-        "TZ",
-        "ZM",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["MW", "ZA", "SZ", "TZ", "ZM", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -76297,12 +74886,8 @@
         }
       ],
       "flag": "🇹🇱",
-      "timezones": [
-        "UTC+09:00"
-      ],
-      "borders": [
-        "ID"
-      ],
+      "timezones": ["UTC+09:00"],
+      "borders": ["ID"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -76410,13 +74995,8 @@
         }
       ],
       "flag": "🇵🇹",
-      "timezones": [
-        "UTC-01:00",
-        "UTC"
-      ],
-      "borders": [
-        "ES"
-      ],
+      "timezones": ["UTC-01:00", "UTC"],
+      "borders": ["ES"],
       "is_landlocked": false,
       "postal_code_format": "####-###",
       "postal_code_regex": "^(\\d{7})$",
@@ -76524,9 +75104,7 @@
         }
       ],
       "flag": "🇸🇹",
-      "timezones": [
-        "UTC"
-      ],
+      "timezones": ["UTC"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -76604,17 +75182,8 @@
         }
       ],
       "flag": "🇦🇫",
-      "timezones": [
-        "UTC+04:30"
-      ],
-      "borders": [
-        "IR",
-        "PK",
-        "TM",
-        "UZ",
-        "TJ",
-        "CN"
-      ],
+      "timezones": ["UTC+04:30"],
+      "borders": ["IR", "PK", "TM", "UZ", "TJ", "CN"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -76691,16 +75260,8 @@
         }
       ],
       "flag": "🇧🇴",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "AR",
-        "BR",
-        "CL",
-        "PY",
-        "PE"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["AR", "BR", "CL", "PY", "PE"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -76770,9 +75331,7 @@
         }
       ],
       "flag": "🇨🇰",
-      "timezones": [
-        "UTC-10:00"
-      ],
+      "timezones": ["UTC-10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -76857,16 +75416,8 @@
         }
       ],
       "flag": "🇨🇭",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "FR",
-        "IT",
-        "LI",
-        "DE"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "FR", "IT", "LI", "DE"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -76934,13 +75485,8 @@
         }
       ],
       "flag": "🇲🇩",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "RO",
-        "UA"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["RO", "UA"],
       "is_landlocked": true,
       "postal_code_format": "MD-####",
       "postal_code_regex": "^(?:MD)*(\\d{4})$",
@@ -77008,16 +75554,8 @@
         }
       ],
       "flag": "🇷🇴",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BG",
-        "HU",
-        "MD",
-        "RS",
-        "UA"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BG", "HU", "MD", "RS", "UA"],
       "is_landlocked": false,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -77101,9 +75639,7 @@
         }
       ],
       "flag": "🇫🇯",
-      "timezones": [
-        "UTC+12:00"
-      ],
+      "timezones": ["UTC+12:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -77174,14 +75710,8 @@
         }
       ],
       "flag": "🇧🇮",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "CD",
-        "RW",
-        "TZ"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["CD", "RW", "TZ"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -77398,16 +75928,8 @@
         }
       ],
       "flag": "🇧🇾",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "LV",
-        "LT",
-        "PL",
-        "RU",
-        "UA"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["LV", "LT", "PL", "RU", "UA"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -77512,17 +76034,8 @@
         }
       ],
       "flag": "🇰🇿",
-      "timezones": [
-        "UTC+05:00",
-        "UTC+06:00"
-      ],
-      "borders": [
-        "CN",
-        "KG",
-        "RU",
-        "TM",
-        "UZ"
-      ],
+      "timezones": ["UTC+05:00", "UTC+06:00"],
+      "borders": ["CN", "KG", "RU", "TM", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -77627,15 +76140,8 @@
         }
       ],
       "flag": "🇰🇬",
-      "timezones": [
-        "UTC+06:00"
-      ],
-      "borders": [
-        "CN",
-        "KZ",
-        "TJ",
-        "UZ"
-      ],
+      "timezones": ["UTC+06:00"],
+      "borders": ["CN", "KZ", "TJ", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -77864,15 +76370,8 @@
         }
       ],
       "flag": "🇹🇯",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "CN",
-        "KG",
-        "UZ"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "CN", "KG", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -77977,15 +76476,8 @@
         }
       ],
       "flag": "🇹🇲",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "IR",
-        "KZ",
-        "UZ"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "IR", "KZ", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -78090,16 +76582,8 @@
         }
       ],
       "flag": "🇺🇿",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "KZ",
-        "KG",
-        "TJ",
-        "TM"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "KZ", "KG", "TJ", "TM"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -78169,17 +76653,8 @@
         }
       ],
       "flag": "🇨🇫",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "TD",
-        "CD",
-        "CG",
-        "SS",
-        "SD"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "TD", "CD", "CG", "SS", "SD"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -78249,12 +76724,8 @@
         }
       ],
       "flag": "🇱🇰",
-      "timezones": [
-        "UTC+05:30"
-      ],
-      "borders": [
-        "IN"
-      ],
+      "timezones": ["UTC+05:30"],
+      "borders": ["IN"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -78322,16 +76793,8 @@
         }
       ],
       "flag": "🇸🇰",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "CZ",
-        "HU",
-        "PL",
-        "UA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "CZ", "HU", "PL", "UA"],
       "is_landlocked": true,
       "postal_code_format": "###  ##",
       "postal_code_regex": "^(\\d{5})$",
@@ -78406,15 +76869,8 @@
         }
       ],
       "flag": "🇨🇿",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "DE",
-        "PL",
-        "SK"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "DE", "PL", "SK"],
       "is_landlocked": true,
       "postal_code_format": "### ##",
       "postal_code_regex": "^(\\d{5})$",
@@ -78477,15 +76933,8 @@
         }
       ],
       "flag": "🇸🇮",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AT",
-        "HR",
-        "IT",
-        "HU"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AT", "HR", "IT", "HU"],
       "is_landlocked": false,
       "postal_code_format": "SI- ####",
       "postal_code_regex": "^(?:SI)*(\\d{4})$",
@@ -78560,9 +77009,7 @@
         }
       ],
       "flag": "🇦🇸",
-      "timezones": [
-        "UTC-11:00"
-      ],
+      "timezones": ["UTC-11:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -78638,9 +77085,7 @@
         }
       ],
       "flag": "🇼🇸",
-      "timezones": [
-        "UTC+13:00"
-      ],
+      "timezones": ["UTC+13:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -78718,15 +77163,8 @@
         }
       ],
       "flag": "🇿🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "MZ",
-        "ZA",
-        "ZM"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "MZ", "ZA", "ZM"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -78796,14 +77234,8 @@
         }
       ],
       "flag": "🇸🇴",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "KE"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "KE"],
       "is_landlocked": false,
       "postal_code_format": "@@  #####",
       "postal_code_regex": "^([A-Z]{2}\\d{5})$",
@@ -78878,12 +77310,8 @@
         }
       ],
       "flag": "🇱🇸",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "ZA"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["ZA"],
       "is_landlocked": true,
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
@@ -79014,17 +77442,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -79223,13 +77642,8 @@
         }
       ],
       "flag": "🇬🇶",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "CM",
-        "GA"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["CM", "GA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -79414,16 +77828,8 @@
         }
       ],
       "flag": "🇦🇷",
-      "timezones": [
-        "UTC-03:00"
-      ],
-      "borders": [
-        "BO",
-        "BR",
-        "CL",
-        "PY",
-        "UY"
-      ],
+      "timezones": ["UTC-03:00"],
+      "borders": ["BO", "BR", "CL", "PY", "UY"],
       "is_landlocked": false,
       "postal_code_format": "@####@@@",
       "postal_code_regex": "^([A-Z]\\d{4}[A-Z]{3})$",
@@ -79608,13 +78014,8 @@
         }
       ],
       "flag": "🇧🇿",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "GT",
-        "MX"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["GT", "MX"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -79806,16 +78207,8 @@
         }
       ],
       "flag": "🇧🇴",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "AR",
-        "BR",
-        "CL",
-        "PY",
-        "PE"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["AR", "BR", "CL", "PY", "PE"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -79993,15 +78386,8 @@
         }
       ],
       "flag": "🇨🇱",
-      "timezones": [
-        "UTC-06:00",
-        "UTC-04:00"
-      ],
-      "borders": [
-        "AR",
-        "BO",
-        "PE"
-      ],
+      "timezones": ["UTC-06:00", "UTC-04:00"],
+      "borders": ["AR", "BO", "PE"],
       "is_landlocked": false,
       "postal_code_format": "#######",
       "postal_code_regex": "^(\\d{7})$",
@@ -80179,13 +78565,8 @@
         }
       ],
       "flag": "🇨🇷",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "NI",
-        "PA"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["NI", "PA"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -80363,12 +78744,8 @@
         }
       ],
       "flag": "🇩🇴",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "HT"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["HT"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -80546,14 +78923,8 @@
         }
       ],
       "flag": "🇪🇨",
-      "timezones": [
-        "UTC-06:00",
-        "UTC-05:00"
-      ],
-      "borders": [
-        "CO",
-        "PE"
-      ],
+      "timezones": ["UTC-06:00", "UTC-05:00"],
+      "borders": ["CO", "PE"],
       "is_landlocked": false,
       "postal_code_format": "@####@",
       "postal_code_regex": "^([a-zA-Z]\\d{4}[a-zA-Z])$",
@@ -80731,13 +79102,8 @@
         }
       ],
       "flag": "🇸🇻",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "GT",
-        "HN"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["GT", "HN"],
       "is_landlocked": false,
       "postal_code_format": "CP ####",
       "postal_code_regex": "^(?:CP)*(\\d{4})$",
@@ -80929,9 +79295,7 @@
         }
       ],
       "flag": "🇬🇺",
-      "timezones": [
-        "UTC+10:00"
-      ],
+      "timezones": ["UTC+10:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "969##",
@@ -81110,15 +79474,8 @@
         }
       ],
       "flag": "🇬🇹",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "BZ",
-        "SV",
-        "HN",
-        "MX"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["BZ", "SV", "HN", "MX"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -81296,14 +79653,8 @@
         }
       ],
       "flag": "🇭🇳",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "GT",
-        "SV",
-        "NI"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["GT", "SV", "NI"],
       "is_landlocked": false,
       "postal_code_format": "@@####",
       "postal_code_regex": "^([A-Z]{2}\\d{4})$",
@@ -81481,16 +79832,8 @@
         }
       ],
       "flag": "🇨🇴",
-      "timezones": [
-        "UTC-05:00"
-      ],
-      "borders": [
-        "BR",
-        "EC",
-        "PA",
-        "PE",
-        "VE"
-      ],
+      "timezones": ["UTC-05:00"],
+      "borders": ["BR", "EC", "PA", "PE", "VE"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -81668,9 +80011,7 @@
         }
       ],
       "flag": "🇨🇺",
-      "timezones": [
-        "UTC-05:00"
-      ],
+      "timezones": ["UTC-05:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "CP #####",
@@ -81849,16 +80190,8 @@
         }
       ],
       "flag": "🇲🇽",
-      "timezones": [
-        "UTC-08:00",
-        "UTC-07:00",
-        "UTC-06:00"
-      ],
-      "borders": [
-        "BZ",
-        "GT",
-        "US"
-      ],
+      "timezones": ["UTC-08:00", "UTC-07:00", "UTC-06:00"],
+      "borders": ["BZ", "GT", "US"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -82036,13 +80369,8 @@
         }
       ],
       "flag": "🇳🇮",
-      "timezones": [
-        "UTC-06:00"
-      ],
-      "borders": [
-        "CR",
-        "HN"
-      ],
+      "timezones": ["UTC-06:00"],
+      "borders": ["CR", "HN"],
       "is_landlocked": false,
       "postal_code_format": "###-###-#",
       "postal_code_regex": "^(\\d{7})$",
@@ -82220,13 +80548,8 @@
         }
       ],
       "flag": "🇵🇦",
-      "timezones": [
-        "UTC-05:00"
-      ],
-      "borders": [
-        "CO",
-        "CR"
-      ],
+      "timezones": ["UTC-05:00"],
+      "borders": ["CO", "CR"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -82411,14 +80734,8 @@
         }
       ],
       "flag": "🇵🇾",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "AR",
-        "BO",
-        "BR"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["AR", "BO", "BR"],
       "is_landlocked": true,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -82596,16 +80913,8 @@
         }
       ],
       "flag": "🇵🇪",
-      "timezones": [
-        "UTC-05:00"
-      ],
-      "borders": [
-        "BO",
-        "BR",
-        "CL",
-        "CO",
-        "EC"
-      ],
+      "timezones": ["UTC-05:00"],
+      "borders": ["BO", "BR", "CL", "CO", "EC"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -82790,9 +81099,7 @@
         }
       ],
       "flag": "🇵🇷",
-      "timezones": [
-        "UTC-04:00"
-      ],
+      "timezones": ["UTC-04:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####-####",
@@ -82971,17 +81278,8 @@
         }
       ],
       "flag": "🇪🇸",
-      "timezones": [
-        "UTC",
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AD",
-        "FR",
-        "GI",
-        "PT",
-        "MA"
-      ],
+      "timezones": ["UTC", "UTC+01:00"],
+      "borders": ["AD", "FR", "GI", "PT", "MA"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -83159,13 +81457,8 @@
         }
       ],
       "flag": "🇺🇾",
-      "timezones": [
-        "UTC-03:00"
-      ],
-      "borders": [
-        "AR",
-        "BR"
-      ],
+      "timezones": ["UTC-03:00"],
+      "borders": ["AR", "BR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -83343,14 +81636,8 @@
         }
       ],
       "flag": "🇻🇪",
-      "timezones": [
-        "UTC-04:00"
-      ],
-      "borders": [
-        "BR",
-        "CO",
-        "GY"
-      ],
+      "timezones": ["UTC-04:00"],
+      "borders": ["BR", "CO", "GY"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -83528,14 +81815,8 @@
         }
       ],
       "flag": "🇪🇭",
-      "timezones": [
-        "UTC+00:00"
-      ],
-      "borders": [
-        "DZ",
-        "MR",
-        "MA"
-      ],
+      "timezones": ["UTC+00:00"],
+      "borders": ["DZ", "MR", "MA"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -83608,15 +81889,8 @@
         }
       ],
       "flag": "🇦🇱",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "ME",
-        "GR",
-        "MK",
-        "XK"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["ME", "GR", "MK", "XK"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -83696,15 +81970,8 @@
         }
       ],
       "flag": "🇽🇰",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "MK",
-        "ME",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "MK", "ME", "RS"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -83798,16 +82065,8 @@
         }
       ],
       "flag": "🇲🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "BA",
-        "HR",
-        "XK",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "BA", "HR", "XK", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -83899,14 +82158,8 @@
         }
       ],
       "flag": "🇧🇦",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "HR",
-        "ME",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["HR", "ME", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -83991,15 +82244,8 @@
         }
       ],
       "flag": "🇽🇰",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "MK",
-        "ME",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "MK", "ME", "RS"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -84098,16 +82344,8 @@
         }
       ],
       "flag": "🇲🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "AL",
-        "BA",
-        "HR",
-        "XK",
-        "RS"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["AL", "BA", "HR", "XK", "RS"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -84185,19 +82423,8 @@
         }
       ],
       "flag": "🇷🇸",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "BA",
-        "BG",
-        "HR",
-        "HU",
-        "XK",
-        "MK",
-        "ME",
-        "RO"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["BA", "BG", "HR", "HU", "XK", "MK", "ME", "RO"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -84272,13 +82499,8 @@
         }
       ],
       "flag": "🇸🇿",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "MZ",
-        "ZA"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["MZ", "ZA"],
       "is_landlocked": true,
       "postal_code_format": "@###",
       "postal_code_regex": "^([A-Z]\\d{3})$",
@@ -84409,17 +82631,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -84538,14 +82751,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -84651,21 +82858,8 @@
         }
       ],
       "flag": "🇨🇩",
-      "timezones": [
-        "UTC+01:00",
-        "UTC+02:00"
-      ],
-      "borders": [
-        "AO",
-        "BI",
-        "CF",
-        "CG",
-        "RW",
-        "SS",
-        "TZ",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+01:00", "UTC+02:00"],
+      "borders": ["AO", "BI", "CF", "CG", "RW", "SS", "TZ", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -84750,16 +82944,8 @@
         }
       ],
       "flag": "🇰🇪",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "ET",
-        "SO",
-        "SS",
-        "TZ",
-        "UG"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["ET", "SO", "SS", "TZ", "UG"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -84844,19 +83030,8 @@
         }
       ],
       "flag": "🇹🇿",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "BI",
-        "CD",
-        "KE",
-        "MW",
-        "MZ",
-        "RW",
-        "UG",
-        "ZM"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["BI", "CD", "KE", "MW", "MZ", "RW", "UG", "ZM"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -84941,16 +83116,8 @@
         }
       ],
       "flag": "🇺🇬",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "CD",
-        "KE",
-        "RW",
-        "SS",
-        "TZ"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["CD", "KE", "RW", "SS", "TZ"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -85023,9 +83190,7 @@
         }
       ],
       "flag": "🇦🇽",
-      "timezones": [
-        "UTC+02:00"
-      ],
+      "timezones": ["UTC+02:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -85106,14 +83271,8 @@
         }
       ],
       "flag": "🇫🇮",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "NO",
-        "SE",
-        "RU"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["NO", "SE", "RU"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(?:FI)*(\\d{5})$",
@@ -85186,13 +83345,8 @@
         }
       ],
       "flag": "🇸🇪",
-      "timezones": [
-        "UTC+01:00"
-      ],
-      "borders": [
-        "FI",
-        "NO"
-      ],
+      "timezones": ["UTC+01:00"],
+      "borders": ["FI", "NO"],
       "is_landlocked": false,
       "postal_code_format": "SE-### ##",
       "postal_code_regex": "^(?:SE)*(\\d{5})$",
@@ -85281,9 +83435,7 @@
         }
       ],
       "flag": "🇸🇬",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "######",
@@ -85359,12 +83511,8 @@
         }
       ],
       "flag": "🇱🇰",
-      "timezones": [
-        "UTC+05:30"
-      ],
-      "borders": [
-        "IN"
-      ],
+      "timezones": ["UTC+05:30"],
+      "borders": ["IN"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -85434,15 +83582,8 @@
         }
       ],
       "flag": "🇹🇯",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "CN",
-        "KG",
-        "UZ"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "CN", "KG", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -85505,15 +83646,8 @@
         }
       ],
       "flag": "🇹🇭",
-      "timezones": [
-        "UTC+07:00"
-      ],
-      "borders": [
-        "MM",
-        "KH",
-        "LA",
-        "MY"
-      ],
+      "timezones": ["UTC+07:00"],
+      "borders": ["MM", "KH", "LA", "MY"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -85632,14 +83766,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -85758,14 +83886,8 @@
         }
       ],
       "flag": "🇪🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "DJ",
-        "ET",
-        "SD"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["DJ", "ET", "SD"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -85835,9 +83957,7 @@
         }
       ],
       "flag": "🇹🇴",
-      "timezones": [
-        "UTC+13:00"
-      ],
+      "timezones": ["UTC+13:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "",
@@ -85913,15 +84033,8 @@
         }
       ],
       "flag": "🇧🇼",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "NA",
-        "ZA",
-        "ZM",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["NA", "ZA", "ZM", "ZW"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -86052,17 +84165,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -86188,17 +84292,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -86280,17 +84375,8 @@
         }
       ],
       "flag": "🇦🇫",
-      "timezones": [
-        "UTC+04:30"
-      ],
-      "borders": [
-        "IR",
-        "PK",
-        "TM",
-        "UZ",
-        "TJ",
-        "CN"
-      ],
+      "timezones": ["UTC+04:30"],
+      "borders": ["IR", "PK", "TM", "UZ", "TJ", "CN"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -86365,15 +84451,8 @@
         }
       ],
       "flag": "🇹🇲",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "IR",
-        "KZ",
-        "UZ"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "IR", "KZ", "UZ"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -86441,19 +84520,8 @@
         }
       ],
       "flag": "🇹🇷",
-      "timezones": [
-        "UTC+03:00"
-      ],
-      "borders": [
-        "AM",
-        "AZ",
-        "BG",
-        "GE",
-        "GR",
-        "IR",
-        "IQ",
-        "SY"
-      ],
+      "timezones": ["UTC+03:00"],
+      "borders": ["AM", "AZ", "BG", "GE", "GR", "IR", "IQ", "SY"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -86535,9 +84603,7 @@
         }
       ],
       "flag": "🇨🇾",
-      "timezones": [
-        "UTC+02:00"
-      ],
+      "timezones": ["UTC+02:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "####",
@@ -86601,18 +84667,8 @@
         }
       ],
       "flag": "🇺🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BY",
-        "HU",
-        "MD",
-        "PL",
-        "RO",
-        "RU",
-        "SK"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BY", "HU", "MD", "PL", "RO", "RU", "SK"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -86682,15 +84738,8 @@
         }
       ],
       "flag": "🇵🇰",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "CN",
-        "IN",
-        "IR"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "CN", "IN", "IR"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -86772,17 +84821,8 @@
         }
       ],
       "flag": "🇦🇫",
-      "timezones": [
-        "UTC+04:30"
-      ],
-      "borders": [
-        "IR",
-        "PK",
-        "TM",
-        "UZ",
-        "TJ",
-        "CN"
-      ],
+      "timezones": ["UTC+04:30"],
+      "borders": ["IR", "PK", "TM", "UZ", "TJ", "CN"],
       "is_landlocked": true,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -86857,16 +84897,8 @@
         }
       ],
       "flag": "🇺🇿",
-      "timezones": [
-        "UTC+05:00"
-      ],
-      "borders": [
-        "AF",
-        "KZ",
-        "KG",
-        "TJ",
-        "TM"
-      ],
+      "timezones": ["UTC+05:00"],
+      "borders": ["AF", "KZ", "KG", "TJ", "TM"],
       "is_landlocked": true,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -86992,17 +85024,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -87065,14 +85088,8 @@
         }
       ],
       "flag": "🇻🇳",
-      "timezones": [
-        "UTC+07:00"
-      ],
-      "borders": [
-        "KH",
-        "CN",
-        "LA"
-      ],
+      "timezones": ["UTC+07:00"],
+      "borders": ["KH", "CN", "LA"],
       "is_landlocked": false,
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
@@ -87198,17 +85215,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
@@ -87291,9 +85299,7 @@
         }
       ],
       "flag": "🇨🇳",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [
         "AF",
         "BT",
@@ -87401,12 +85407,8 @@
         }
       ],
       "flag": "🇭🇰",
-      "timezones": [
-        "UTC+08:00"
-      ],
-      "borders": [
-        "CN"
-      ],
+      "timezones": ["UTC+08:00"],
+      "borders": ["CN"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -87496,12 +85498,8 @@
         }
       ],
       "flag": "🇲🇴",
-      "timezones": [
-        "UTC+08:00"
-      ],
-      "borders": [
-        "CN"
-      ],
+      "timezones": ["UTC+08:00"],
+      "borders": ["CN"],
       "is_landlocked": false,
       "postal_code_format": "",
       "postal_code_regex": "",
@@ -87605,9 +85603,7 @@
         }
       ],
       "flag": "🇸🇬",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "######",
@@ -87691,9 +85687,7 @@
         }
       ],
       "flag": "🇹🇼",
-      "timezones": [
-        "UTC+08:00"
-      ],
+      "timezones": ["UTC+08:00"],
       "borders": [],
       "is_landlocked": false,
       "postal_code_format": "#####",
@@ -87762,14 +85756,8 @@
         }
       ],
       "flag": "🇲🇾",
-      "timezones": [
-        "UTC+08:00"
-      ],
-      "borders": [
-        "BN",
-        "ID",
-        "TH"
-      ],
+      "timezones": ["UTC+08:00"],
+      "borders": ["BN", "ID", "TH"],
       "is_landlocked": false,
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
@@ -87895,17 +85883,8 @@
         }
       ],
       "flag": "🇿🇦",
-      "timezones": [
-        "UTC+02:00"
-      ],
-      "borders": [
-        "BW",
-        "LS",
-        "MZ",
-        "NA",
-        "SZ",
-        "ZW"
-      ],
+      "timezones": ["UTC+02:00"],
+      "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
       "is_landlocked": false,
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",

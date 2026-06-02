@@ -36,8 +36,8 @@ export interface ICountry {
   // https://en.wikipedia.org/wiki/List_of_telephone_country_codes
   direct_dialing_code: string;
 
-  languages(): ILanguages
-  borders(): ICountries
+  languages(): ILanguages;
+  borders(): ICountries;
 }
 
 export enum CountryLookUp {
@@ -66,7 +66,6 @@ export interface ILanguage {
   iso_639_1: string;
   iso_639_2: string;
   iso_639_3: string;
-
 }
 
 export interface ILanguages {
@@ -112,9 +111,9 @@ export interface ISimplelocalizeCountry {
   borders: string[];
   is_landlocked: boolean;
   tld: string;
-  iso_3166_1_numeric: number,
-  iso_3166_1_alpha2: string,
-  iso_3166_1_alpha3: string,
+  iso_3166_1_numeric: number;
+  iso_3166_1_alpha2: string;
+  iso_3166_1_alpha3: string;
 }
 
 export interface IRestcountriesData {
@@ -127,4 +126,3 @@ export interface IRestcountriesIdd {
   root: string;
   suffixes: string[];
 }
-

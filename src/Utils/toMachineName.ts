@@ -7,10 +7,10 @@
  * - Trims leading/trailing underscores
  */
 export function toMachineName(name: string): string {
-    return name
-        .normalize("NFD")
-        .replace(/\p{M}/gu, "")        // strip combining marks (diacritics)
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "_")   // non-alphanumeric runs → _
-        .replace(/^_|_$/g, "");        // trim edges
+  return name
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "") // strip combining marks (diacritics)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_") // non-alphanumeric runs → _
+    .replace(/^_|_$/g, ""); // trim edges
 }

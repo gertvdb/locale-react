@@ -12,9 +12,7 @@
  * normalizeLocale({ locale: "EN_us" }); // "en-US"
  * normalizeLocale({ locale: "FR-FR" });    // "fr-FR"
  */
-export function normalizeLocale(value: {
-  locale: string;
-}): string {
+export function normalizeLocale(value: { locale: string }): string {
   const { locale } = value;
 
   const cleaned = locale.trim().replace("_", "-");

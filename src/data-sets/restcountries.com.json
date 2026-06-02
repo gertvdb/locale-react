@@ -3,447 +3,297 @@
     "cca2": "AX",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "5818"
-      ]
+      "suffixes": ["5818"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "VC",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "784"
-      ]
+      "suffixes": ["784"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "KP",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "50"
-      ]
+      "suffixes": ["50"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "NE",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "27"
-      ]
+      "suffixes": ["27"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "SR",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "97"
-      ]
+      "suffixes": ["97"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "FJ",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "79"
-      ]
+      "suffixes": ["79"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "IT",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "9"
-      ]
+      "suffixes": ["9"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "AU",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "GQ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "40"
-      ]
+      "suffixes": ["40"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "TT",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "868"
-      ]
+      "suffixes": ["868"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "SH",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "90",
-        "47"
-      ]
+      "suffixes": ["90", "47"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "NF",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "72"
-      ]
+      "suffixes": ["72"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "LB",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "61"
-      ]
+      "suffixes": ["61"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "OM",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "68"
-      ]
+      "suffixes": ["68"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "LS",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "66"
-      ]
+      "suffixes": ["66"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "GP",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "90"
-      ]
+      "suffixes": ["90"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "GB",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "WS",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "85"
-      ]
+      "suffixes": ["85"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "NZ",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "SX",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "721"
-      ]
+      "suffixes": ["721"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "MG",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "61"
-      ]
+      "suffixes": ["61"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "QA",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "74"
-      ]
+      "suffixes": ["74"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "JO",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "62"
-      ]
+      "suffixes": ["62"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "DE",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "9"
-      ]
+      "suffixes": ["9"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "VI",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "340"
-      ]
+      "suffixes": ["340"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "PF",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "89"
-      ]
+      "suffixes": ["89"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "MA",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "12"
-      ]
+      "suffixes": ["12"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "IO",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "46"
-      ]
+      "suffixes": ["46"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MT",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "56"
-      ]
+      "suffixes": ["56"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BB",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "246"
-      ]
+      "suffixes": ["246"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "TW",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "86"
-      ]
+      "suffixes": ["86"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MR",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "22"
-      ]
+      "suffixes": ["22"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "SV",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "03"
-      ]
+      "suffixes": ["03"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "BQ",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "99"
-      ]
+      "suffixes": ["99"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "CY",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "57"
-      ]
+      "suffixes": ["57"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "AZ",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "94"
-      ]
+      "suffixes": ["94"]
     },
-    "continents": [
-      "Europe",
-      "Asia"
-    ]
+    "continents": ["Europe", "Asia"]
   },
   {
     "cca2": "TJ",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "92"
-      ]
+      "suffixes": ["92"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "AQ",
@@ -451,1020 +301,679 @@
       "root": "",
       "suffixes": []
     },
-    "continents": [
-      "Antarctica"
-    ]
+    "continents": ["Antarctica"]
   },
   {
     "cca2": "SL",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "32"
-      ]
+      "suffixes": ["32"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "RO",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "0"
-      ]
+      "suffixes": ["0"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "GD",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "473"
-      ]
+      "suffixes": ["473"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "VA",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "906698",
-        "79"
-      ]
+      "suffixes": ["906698", "79"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "MW",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "65"
-      ]
+      "suffixes": ["65"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "KY",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "345"
-      ]
+      "suffixes": ["345"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "CF",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "36"
-      ]
+      "suffixes": ["36"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "TC",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "649"
-      ]
+      "suffixes": ["649"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "BZ",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "01"
-      ]
+      "suffixes": ["01"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "JE",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "AL",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "55"
-      ]
+      "suffixes": ["55"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "IN",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "PE",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "UY",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "98"
-      ]
+      "suffixes": ["98"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "WF",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "81"
-      ]
+      "suffixes": ["81"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "GW",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "45"
-      ]
+      "suffixes": ["45"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "TO",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "76"
-      ]
+      "suffixes": ["76"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "AT",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "3"
-      ]
+      "suffixes": ["3"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "LY",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "18"
-      ]
+      "suffixes": ["18"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "TN",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "16"
-      ]
+      "suffixes": ["16"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "MZ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "58"
-      ]
+      "suffixes": ["58"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "CR",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "06"
-      ]
+      "suffixes": ["06"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "DO",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "809",
-        "829",
-        "849"
-      ]
+      "suffixes": ["809", "829", "849"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "FK",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "00"
-      ]
+      "suffixes": ["00"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "GR",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "0"
-      ]
+      "suffixes": ["0"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "SN",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "21"
-      ]
+      "suffixes": ["21"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "GN",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "24"
-      ]
+      "suffixes": ["24"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "KH",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "55"
-      ]
+      "suffixes": ["55"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MK",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "89"
-      ]
+      "suffixes": ["89"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "GI",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "50"
-      ]
+      "suffixes": ["50"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "RS",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "81"
-      ]
+      "suffixes": ["81"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "SY",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "63"
-      ]
+      "suffixes": ["63"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "ZA",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "7"
-      ]
+      "suffixes": ["7"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "AI",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "264"
-      ]
+      "suffixes": ["264"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "DM",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "767"
-      ]
+      "suffixes": ["767"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "TK",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "90"
-      ]
+      "suffixes": ["90"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "PA",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "07"
-      ]
+      "suffixes": ["07"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "YT",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "62"
-      ]
+      "suffixes": ["62"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "MX",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "2"
-      ]
+      "suffixes": ["2"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "FR",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "3"
-      ]
+      "suffixes": ["3"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BJ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "29"
-      ]
+      "suffixes": ["29"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "LR",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "31"
-      ]
+      "suffixes": ["31"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "GL",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "99"
-      ]
+      "suffixes": ["99"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "ML",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "23"
-      ]
+      "suffixes": ["23"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "CO",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "7"
-      ]
+      "suffixes": ["7"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "DZ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "13"
-      ]
+      "suffixes": ["13"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "GT",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "02"
-      ]
+      "suffixes": ["02"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "PH",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "3"
-      ]
+      "suffixes": ["3"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "HU",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "6"
-      ]
+      "suffixes": ["6"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "SE",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "6"
-      ]
+      "suffixes": ["6"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "EG",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "0"
-      ]
+      "suffixes": ["0"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "PG",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "75"
-      ]
+      "suffixes": ["75"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "HT",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "09"
-      ]
+      "suffixes": ["09"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "MP",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "670"
-      ]
+      "suffixes": ["670"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "IR",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "8"
-      ]
+      "suffixes": ["8"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "VU",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "78"
-      ]
+      "suffixes": ["78"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "CH",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BM",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "441"
-      ]
+      "suffixes": ["441"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "JP",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "PW",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "80"
-      ]
+      "suffixes": ["80"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "GA",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "41"
-      ]
+      "suffixes": ["41"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "SK",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "21"
-      ]
+      "suffixes": ["21"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CN",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "6"
-      ]
+      "suffixes": ["6"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MY",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "0"
-      ]
+      "suffixes": ["0"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "ST",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "39"
-      ]
+      "suffixes": ["39"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "GE",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "95"
-      ]
+      "suffixes": ["95"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "TM",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "93"
-      ]
+      "suffixes": ["93"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "BH",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "73"
-      ]
+      "suffixes": ["73"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "VN",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MF",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "90"
-      ]
+      "suffixes": ["90"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "GG",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BF",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "26"
-      ]
+      "suffixes": ["26"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "IM",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "GF",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "94"
-      ]
+      "suffixes": ["94"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "TG",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "28"
-      ]
+      "suffixes": ["28"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "NI",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "05"
-      ]
+      "suffixes": ["05"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "LV",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "71"
-      ]
+      "suffixes": ["71"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "NG",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "34"
-      ]
+      "suffixes": ["34"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "BN",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "73"
-      ]
+      "suffixes": ["73"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "LI",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "23"
-      ]
+      "suffixes": ["23"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "RE",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "62"
-      ]
+      "suffixes": ["62"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "LA",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "56"
-      ]
+      "suffixes": ["56"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "BO",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "91"
-      ]
+      "suffixes": ["91"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "GY",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "92"
-      ]
+      "suffixes": ["92"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "HM",
@@ -1472,1181 +981,783 @@
       "root": "",
       "suffixes": []
     },
-    "continents": [
-      "Antarctica"
-    ]
+    "continents": ["Antarctica"]
   },
   {
     "cca2": "CD",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "43"
-      ]
+      "suffixes": ["43"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "LK",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "NU",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "83"
-      ]
+      "suffixes": ["83"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "SB",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "77"
-      ]
+      "suffixes": ["77"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "RW",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "50"
-      ]
+      "suffixes": ["50"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "AR",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "IE",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "53"
-      ]
+      "suffixes": ["53"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "MQ",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "96"
-      ]
+      "suffixes": ["96"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "NP",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "77"
-      ]
+      "suffixes": ["77"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "BD",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "80"
-      ]
+      "suffixes": ["80"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "NR",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "74"
-      ]
+      "suffixes": ["74"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "TF",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "62"
-      ]
+      "suffixes": ["62"]
     },
-    "continents": [
-      "Antarctica"
-    ]
+    "continents": ["Antarctica"]
   },
   {
     "cca2": "SZ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "68"
-      ]
+      "suffixes": ["68"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "KR",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "2"
-      ]
+      "suffixes": ["2"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "HR",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "85"
-      ]
+      "suffixes": ["85"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "UA",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "80"
-      ]
+      "suffixes": ["80"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "TV",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "88"
-      ]
+      "suffixes": ["88"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "HK",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "52"
-      ]
+      "suffixes": ["52"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MN",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "76"
-      ]
+      "suffixes": ["76"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "JM",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "876",
-        "658"
-      ]
+      "suffixes": ["876", "658"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "BV",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "7"
-      ]
+      "suffixes": ["7"]
     },
-    "continents": [
-      "Antarctica"
-    ]
+    "continents": ["Antarctica"]
   },
   {
     "cca2": "SS",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "11"
-      ]
+      "suffixes": ["11"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "FM",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "91"
-      ]
+      "suffixes": ["91"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "SD",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "49"
-      ]
+      "suffixes": ["49"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "SO",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "52"
-      ]
+      "suffixes": ["52"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "ER",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "91"
-      ]
+      "suffixes": ["91"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "BS",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "242"
-      ]
+      "suffixes": ["242"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "ET",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "51"
-      ]
+      "suffixes": ["51"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "TR",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "0"
-      ]
+      "suffixes": ["0"]
     },
-    "continents": [
-      "Europe",
-      "Asia"
-    ]
+    "continents": ["Europe", "Asia"]
   },
   {
     "cca2": "BI",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "57"
-      ]
+      "suffixes": ["57"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "PS",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "70"
-      ]
+      "suffixes": ["70"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "AS",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "684"
-      ]
+      "suffixes": ["684"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "AD",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "76"
-      ]
+      "suffixes": ["76"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BA",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "87"
-      ]
+      "suffixes": ["87"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "PN",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "MM",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "5"
-      ]
+      "suffixes": ["5"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "EE",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "72"
-      ]
+      "suffixes": ["72"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "SM",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "78"
-      ]
+      "suffixes": ["78"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "TD",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "35"
-      ]
+      "suffixes": ["35"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "IQ",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "64"
-      ]
+      "suffixes": ["64"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "DJ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "53"
-      ]
+      "suffixes": ["53"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "IS",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "54"
-      ]
+      "suffixes": ["54"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "TH",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "6"
-      ]
+      "suffixes": ["6"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "AG",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "268"
-      ]
+      "suffixes": ["268"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "BR",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "5"
-      ]
+      "suffixes": ["5"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "ES",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "4"
-      ]
+      "suffixes": ["4"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "GU",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "671"
-      ]
+      "suffixes": ["671"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "KE",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "54"
-      ]
+      "suffixes": ["54"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "AE",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "71"
-      ]
+      "suffixes": ["71"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MD",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "73"
-      ]
+      "suffixes": ["73"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "KG",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "96"
-      ]
+      "suffixes": ["96"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "BL",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "90"
-      ]
+      "suffixes": ["90"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "GH",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "33"
-      ]
+      "suffixes": ["33"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "TL",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "70"
-      ]
+      "suffixes": ["70"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "GM",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "20"
-      ]
+      "suffixes": ["20"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "BW",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "67"
-      ]
+      "suffixes": ["67"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "ZM",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "60"
-      ]
+      "suffixes": ["60"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "NC",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "87"
-      ]
+      "suffixes": ["87"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "BY",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "75"
-      ]
+      "suffixes": ["75"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CV",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "38"
-      ]
+      "suffixes": ["38"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "KN",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "869"
-      ]
+      "suffixes": ["869"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "RU",
     "idd": {
       "root": "+7",
-      "suffixes": [
-        "3",
-        "4",
-        "5",
-        "8",
-        "9"
-      ]
+      "suffixes": ["3", "4", "5", "8", "9"]
     },
-    "continents": [
-      "Europe",
-      "Asia"
-    ]
+    "continents": ["Europe", "Asia"]
   },
   {
     "cca2": "EH",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "125288",
-        "125289"
-      ]
+      "suffixes": ["125288", "125289"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "DK",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "5"
-      ]
+      "suffixes": ["5"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "LU",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "52"
-      ]
+      "suffixes": ["52"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CM",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "37"
-      ]
+      "suffixes": ["37"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "CX",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "VE",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "8"
-      ]
+      "suffixes": ["8"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "YE",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "67"
-      ]
+      "suffixes": ["67"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "AO",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "44"
-      ]
+      "suffixes": ["44"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "PK",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "2"
-      ]
+      "suffixes": ["2"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "UZ",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "98"
-      ]
+      "suffixes": ["98"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "CA",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        ""
-      ]
+      "suffixes": [""]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "ID",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "2"
-      ]
+      "suffixes": ["2"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "NA",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "64"
-      ]
+      "suffixes": ["64"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "NL",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "SC",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "48"
-      ]
+      "suffixes": ["48"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "NO",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "7"
-      ]
+      "suffixes": ["7"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "HN",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "04"
-      ]
+      "suffixes": ["04"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "ME",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "82"
-      ]
+      "suffixes": ["82"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "PT",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "51"
-      ]
+      "suffixes": ["51"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "IL",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "72"
-      ]
+      "suffixes": ["72"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "FO",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "98"
-      ]
+      "suffixes": ["98"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "KI",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "86"
-      ]
+      "suffixes": ["86"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "SA",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "66"
-      ]
+      "suffixes": ["66"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "CL",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "6"
-      ]
+      "suffixes": ["6"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "CK",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "82"
-      ]
+      "suffixes": ["82"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "MS",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "664"
-      ]
+      "suffixes": ["664"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "GS",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "00"
-      ]
+      "suffixes": ["00"]
     },
-    "continents": [
-      "Antarctica"
-    ]
+    "continents": ["Antarctica"]
   },
   {
     "cca2": "AM",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "74"
-      ]
+      "suffixes": ["74"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "BE",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "2"
-      ]
+      "suffixes": ["2"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BT",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "75"
-      ]
+      "suffixes": ["75"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "UM",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "68"
-      ]
+      "suffixes": ["68"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "SI",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "86"
-      ]
+      "suffixes": ["86"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CI",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "25"
-      ]
+      "suffixes": ["25"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "MC",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "77"
-      ]
+      "suffixes": ["77"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "TZ",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "55"
-      ]
+      "suffixes": ["55"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "US",
@@ -2972,358 +2083,238 @@
         "989"
       ]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "MO",
     "idd": {
       "root": "+8",
-      "suffixes": [
-        "53"
-      ]
+      "suffixes": ["53"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "KZ",
     "idd": {
       "root": "+7",
-      "suffixes": [
-        "6",
-        "7"
-      ]
+      "suffixes": ["6", "7"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MH",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "92"
-      ]
+      "suffixes": ["92"]
     },
-    "continents": [
-      "Oceania"
-    ]
+    "continents": ["Oceania"]
   },
   {
     "cca2": "CU",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "3"
-      ]
+      "suffixes": ["3"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "CW",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "99"
-      ]
+      "suffixes": ["99"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "PL",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "8"
-      ]
+      "suffixes": ["8"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "MU",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "30"
-      ]
+      "suffixes": ["30"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "AF",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "3"
-      ]
+      "suffixes": ["3"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "MV",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "60"
-      ]
+      "suffixes": ["60"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "UG",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "56"
-      ]
+      "suffixes": ["56"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "KW",
     "idd": {
       "root": "+9",
-      "suffixes": [
-        "65"
-      ]
+      "suffixes": ["65"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "SJ",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "779"
-      ]
+      "suffixes": ["779"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CC",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "1"
-      ]
+      "suffixes": ["1"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "EC",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "93"
-      ]
+      "suffixes": ["93"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "PM",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "08"
-      ]
+      "suffixes": ["08"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "KM",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "69"
-      ]
+      "suffixes": ["69"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "LT",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "70"
-      ]
+      "suffixes": ["70"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "SG",
     "idd": {
       "root": "+6",
-      "suffixes": [
-        "5"
-      ]
+      "suffixes": ["5"]
     },
-    "continents": [
-      "Asia"
-    ]
+    "continents": ["Asia"]
   },
   {
     "cca2": "AW",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "97"
-      ]
+      "suffixes": ["97"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "VG",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "284"
-      ]
+      "suffixes": ["284"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "FI",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "58"
-      ]
+      "suffixes": ["58"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "BG",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "59"
-      ]
+      "suffixes": ["59"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CG",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "42"
-      ]
+      "suffixes": ["42"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "LC",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "758"
-      ]
+      "suffixes": ["758"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   },
   {
     "cca2": "ZW",
     "idd": {
       "root": "+2",
-      "suffixes": [
-        "63"
-      ]
+      "suffixes": ["63"]
     },
-    "continents": [
-      "Africa"
-    ]
+    "continents": ["Africa"]
   },
   {
     "cca2": "PY",
     "idd": {
       "root": "+5",
-      "suffixes": [
-        "95"
-      ]
+      "suffixes": ["95"]
     },
-    "continents": [
-      "South America"
-    ]
+    "continents": ["South America"]
   },
   {
     "cca2": "XK",
     "idd": {
       "root": "+3",
-      "suffixes": [
-        "83"
-      ]
+      "suffixes": ["83"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "CZ",
     "idd": {
       "root": "+4",
-      "suffixes": [
-        "20"
-      ]
+      "suffixes": ["20"]
     },
-    "continents": [
-      "Europe"
-    ]
+    "continents": ["Europe"]
   },
   {
     "cca2": "PR",
     "idd": {
       "root": "+1",
-      "suffixes": [
-        "787",
-        "939"
-      ]
+      "suffixes": ["787", "939"]
     },
-    "continents": [
-      "North America"
-    ]
+    "continents": ["North America"]
   }
 ]
