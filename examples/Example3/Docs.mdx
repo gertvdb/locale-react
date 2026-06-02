@@ -1,0 +1,24 @@
+import React from "react";
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as Stories from "./Example.stories";
+
+<Meta of={Stories} />
+
+# `Custom Locale`
+
+This example demonstrates how to use the `@gertvdb/locale` library to create custom locale objects.
+
+<br />
+
+## Demo
+
+<Canvas of={Stories.Standard} />
+
+## Code
+
+```tsx
+import { createLocale } from "@gertvdb/locale";
+
+// Create custom locale
+const custom = createLocale({ languageOrLocale: 'fr-CA' });
+```

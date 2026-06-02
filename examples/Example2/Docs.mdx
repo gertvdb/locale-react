@@ -1,0 +1,33 @@
+import React from "react";
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as Stories from "./Example.stories";
+
+<Meta of={Stories} />
+
+# `URL Locale Extraction`
+
+This example demonstrates how to extract a locale from a URL using path segments, query parameters, or the hostname.
+
+<br />
+
+## Demo
+
+<Canvas of={Stories.Standard} />
+
+## Code
+
+```tsx
+import { SystemLocale } from "@gertvdb/locale";
+import { fromUrlPathSegment } from "@gertvdb/locale/utils/fromUrlPathSegment";
+import { fromUrlQueryParam } from "@gertvdb/locale/utils/fromUrlQueryParam";
+import { fromUrlHostname } from "@gertvdb/locale/utils/fromUrlHostname";
+
+// From path segment: https://example.com/en-US/dashboard
+const pathLocale = fromUrlPathSegment({ url, default: SystemLocale });
+
+// From query param: https://example.com/dashboard?locale=fr-BE
+const queryLocale = fromUrlQueryParam({ url, default: SystemLocale });
+
+// From hostname: https://de.example.com/dashboard
+const hostnameLocale = fromUrlHostname({ url, default: SystemLocale });
+```

@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import { Example } from "./Example";
 
 const meta: Meta<typeof Example> = {
-  title: "System Locale",
+  title: "URL Locale",
   component: Example,
   args: {},
   argTypes: {},
@@ -13,9 +13,8 @@ export default meta;
 
 type Story = StoryObj<typeof Example>;
 
-// More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Standard: Story = {
-  name: "System Locale",
+  name: "URL Locale",
   args: {},
   render: (args) => <Example />,
 };

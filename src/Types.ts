@@ -1,96 +1,105 @@
 export interface ILocale {
-  locale: ILocaleString;
-  language: ILanguageString;
-  region: IRegionString | undefined;
+  locale: string;
+  language_code: string;
+  country_code: string;
+  language(): ILanguage;
+  country(): ICountry;
 }
 
-/**
- * Locale string in the format "language-region" (e.g., "nl-be").
- */
-export type ILocaleString =
-  | `${ILanguageString}-${IRegionString}`
-  | (string & {});
+export interface IContinent {
+  name: string;
 
-/**
- * Region identifier (e.g., "be", "fr").
- */
-export type IRegionString =
-  | (string & {})
-  | "BE" // Belgium
-  | "NL" // Netherlands
-  | "FR" // France
-  | "DE" // Germany
-  | "IT" // Italy
-  | "ES" // Spain
-  | "PT" // Portugal
-  | "PL" // Poland
-  | "CZ" // Czech Republic
-  | "SK" // Slovakia
-  | "AT" // Austria
-  | "CH" // Switzerland
-  | "LU" // Luxembourg
-  | "LI" // Liechtenstein
-  | "DK" // Denmark
-  | "SE" // Sweden
-  | "NO" // Norway
-  | "FI" // Finland
-  | "IS" // Iceland
-  | "IE" // Ireland
-  | "GB" // United Kingdom
-  | "EE" // Estonia
-  | "LV" // Latvia
-  | "LT" // Lithuania
-  | "HU" // Hungary
-  | "RO" // Romania
-  | "BG" // Bulgaria
-  | "GR" // Greece
-  | "HR" // Croatia
-  | "SI" // Slovenia
-  | "RS" // Serbia
-  | "BA" // Bosnia and Herzegovina
-  | "ME" // Montenegro
-  | "MK" // North Macedonia
-  | "AL" // Albania
-  | "UA" // Ukraine
-  | "MD" // Moldova
-  | "TR"; // Turkey
+  // ISO 3166-1
+  // https://nl.wikipedia.org/wiki/ISO_3166-1
+  alpha2: string;
 
-/**
- * Language identifier (e.g., "nl", "fr").
- */
-export type ILanguageString =
-  | (string & {})
-  | "sq" // Albanian
-  | "de" // German
-  | "en" // English
-  | "fr" // French
-  | "nl" // Dutch
-  | "it" // Italian
-  | "es" // Spanish
-  | "pt" // Portuguese
-  | "pl" // Polish
-  | "cs" // Czech
-  | "sk" // Slovak
-  | "sl" // Slovenian
-  | "hr" // Croatian
-  | "sr" // Serbian
-  | "bs" // Bosnian
-  | "mk" // Macedonian
-  | "bg" // Bulgarian
-  | "ro" // Romanian
-  | "hu" // Hungarian
-  | "el" // Greek
-  | "sv" // Swedish
-  | "da" // Danish
-  | "no" // Norwegian
-  | "fi" // Finnish
-  | "is" // Icelandic
-  | "et" // Estonian
-  | "lv" // Latvian
-  | "lt" // Lithuanian
-  | "ga" // Irish
-  | "mt" // Maltese
-  | "cy" // Welsh
-  | "eu" // Basque
-  | "ca" // Catalan
-  | "gl"; // Galician
+  countries(): ICountry[];
+}
+
+export interface ICountry {
+  name: string;
+
+  // This can be used for translations, as it provides a machine-readable identifier for the country in a stable format for translations.
+  machine_name: string;
+
+  // ISO 3166-1
+  // https://nl.wikipedia.org/wiki/ISO_3166-1
+  alpha2: string;
+  alpha3: string;
+  numeric: string;
+
+  // International Direct Dialing
+  // https://en.wikipedia.org/wiki/List_of_telephone_country_codes
+  direct_dialing_code: string;
+
+  continent: IContinent;
+
+  languages(): ILanguage[]
+  borders(): ICountry[]
+
+}
+
+export interface ILanguage {
+  name: string;
+
+  // This can be used for translations, as it provides a machine-readable identifier for the country in a stable format for translations.
+  machine_name: string;
+
+  iso_639_1: string;
+  iso_639_2: string;
+  iso_639_3: string;
+
+}
+
+export interface ISimplelocalizeData {
+  locale: string;
+  language: ISimplelocalizeLanguage;
+  country: ISimplelocalizeCountry;
+}
+
+export interface ISimplelocalizeLanguage {
+  name: string;
+  name_local: string;
+  iso_639_1: string;
+  iso_639_2: string;
+  iso_639_3: string;
+}
+
+export interface ISimplelocalizeCountry {
+  name: string;
+  name_local: string;
+  code: string;
+  area_sq_km: number;
+  continent: string;
+  region: string;
+  capital_name: string;
+  capital_latitude: number;
+  capital_longitude: number;
+  currency: string;
+  currency_local: string;
+  currency_code: string;
+  currency_symbol: string;
+  currency_numeric: number;
+  currency_subunit_value: number;
+  currency_subunit_name: string;
+  languages: ISimplelocalizeLanguage[];
+  flag: string;
+  timezones: string[];
+  borders: string[];
+  is_landlocked: boolean;
+  tld: string;
+  iso_3166_1_numeric: number,
+  iso_3166_1_alpha2: string,
+  iso_3166_1_alpha3: string,
+}
+
+export interface IRestcountriesData {
+  cca2: string;
+  idd: IRestcountriesIdd;
+}
+
+export interface IRestcountriesIdd {
+  root: string;
+  suffixes: string[];
+}
+
