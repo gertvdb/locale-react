@@ -70,7 +70,10 @@ export class Locale implements ILocale {
   }
 
   public country(): ICountry {
-    const [, country] = this.locale.split('-');
     return Country.fromIso31661Alpha2({ alpha2: this.country_code });
+  }
+
+  public toIntlLocale(): Intl.Locale {
+    return new Intl.Locale(this.locale);
   }
 }

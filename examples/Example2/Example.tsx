@@ -1,54 +1,61 @@
 import React from "react";
-import { SystemLocale } from "../../src";
-import { fromUrlPathSegment } from "@/Utils/fromUrlPathSegment";
-import { fromUrlQueryParam } from "@/Utils/fromUrlQueryParam";
-import { fromUrlHostname } from "@/Utils/fromUrlHostname";
+import { Language, Country, Continent } from "../../src";
+
+const Section = ({ title, rows }: { title: string; rows: [string, React.ReactNode][] }) => (
+    <section>
+        <h3>{title}</h3>
+        <hr />
+        <table style={{ borderCollapse: 'collapse', width: '100%' }}>
+            <tbody>
+                {rows.map(([label, value]) => (
+                    <tr key={label}>
+                        <td style={{ padding: '4px 12px 4px 0', fontWeight: 'bold', whiteSpace: 'nowrap' }}>{label}</td>
+                        <td style={{ padding: '4px 0' }}>{value}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    </section>
+);
 
 export const Example = () => {
-    const pathUrl = new URL("https://example.com/en-US/dashboard");
-    const queryUrl = new URL("https://example.com/dashboard?locale=fr-BE");
-    const hostnameUrl = new URL("https://de.example.com/dashboard");
-
-    const pathLocale = fromUrlPathSegment({ url: pathUrl, default: SystemLocale });
-    const queryLocale = fromUrlQueryParam({ url: queryUrl, default: SystemLocale });
-    const hostnameLocale = fromUrlHostname({ url: hostnameUrl, default: SystemLocale });
+    const language = Language.fromIso6391({ iso_639_1: 'fr' });
+    const country = Country.fromIso31661Alpha2({ alpha2: 'BE' });
+    const continent = Continent.europe();
 
     return (
-        <div style={{ fontFamily: 'sans-serif', padding: '20px' }}>
-            <section>
-                <h3>From Path Segment</h3>
-                <hr />
-                <p><strong>URL:</strong> {pathUrl.href}</p>
-                <p><strong>Full Locale:</strong> {pathLocale.locale}</p>
-                <p><strong>Language:</strong> {pathLocale.language}</p>
-                <p><strong>Region:</strong> {pathLocale.region ?? 'N/A'}</p>
-            </section>
+        <div style={{ fontFamily: 'sans-serif', padding: '20px', display: 'flex', flexDirection: 'column', gap: '32px' }}>
+            <Section title="Language — French (fr)" rows={[
+                ['name',       language.name],
+                ['iso_639_1',  language.iso_639_1],
+                ['iso_639_2',  language.iso_639_2],
+                ['iso_639_3',  language.iso_639_3],
+                ['machine_name',language.machine_name],
+            ]} />
 
-            <br />
-            <br />
-            <br />
+            <Section title="Country — Belgium (BE)" rows={[
+                ['name',               country.name],
+                ['alpha2',             country.alpha2],
+                ['alpha3',             country.alpha3],
+                ['numeric',            country.numeric],
+                ['machine_name',       country.machine_name],
+                ['direct_dialing_code',country.direct_dialing_code],
+                ['languages',          country.languages().toArray().map(l => l.name).join(', ')],
+                ['borders',            country.borders()
+                    .toArray()
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map(c => c.name + '(' + c.alpha2 + ')').join(', ')],
+            ]} />
 
-            <section>
-                <h3>From Query Param</h3>
-                <hr />
-                <p><strong>URL:</strong> {queryUrl.href}</p>
-                <p><strong>Full Locale:</strong> {queryLocale.locale}</p>
-                <p><strong>Language:</strong> {queryLocale.language}</p>
-                <p><strong>Region:</strong> {queryLocale.region ?? 'N/A'}</p>
-            </section>
-
-            <br />
-            <br />
-            <br />
-
-            <section>
-                <h3>From Hostname</h3>
-                <hr />
-                <p><strong>URL:</strong> {hostnameUrl.href}</p>
-                <p><strong>Full Locale:</strong> {hostnameLocale.locale}</p>
-                <p><strong>Language:</strong> {hostnameLocale.language}</p>
-                <p><strong>Region:</strong> {hostnameLocale.region ?? 'N/A'}</p>
-            </section>
+            <Section title="Continent — Europe (EU)" rows={[
+                ['name',        continent.name],
+                ['alpha2',      continent.alpha2],
+                ['machine_name',continent.machine_name],
+                ['countries',   continent.countries()
+                    .toArray()
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map(c => c.name + '(' + c.alpha2 + ')').join(', ')],
+            ]} />
         </div>
     );
 };

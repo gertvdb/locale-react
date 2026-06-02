@@ -1,17 +1,19 @@
 import {
     ICountry,
-    IRestcountriesData, ISimplelocalizeData, ISimplelocalizeCountry, ILocale, ILanguage, IContinent,
+    IRestcountriesData, ISimplelocalizeData, ISimplelocalizeCountry, ILocale, ILanguage, IContinent, ILanguages,
+    ICountries,
 } from "@/Types";
 import { toMachineName } from "@/Utils/toMachineName";
 
 // Dataset : https://cdn.simplelocalize.io/public/v1/locales
 import simplelocalize from "@/data-sets/simplelocalize.io.json";
 
-// Dataset : https://restcountries.com/v4/all?fields=idd,cca2
+// Dataset : https://restcountries.com/v4/all?fields=idd,cca2,continents
 import restcountries from "@/data-sets/restcountries.com.json";
 import {Locale} from "@/Domain/Locale";
 import {Language} from "@/Domain/Language";
-import {Continent, CONTINENT_MAP} from "@/Domain/Continent";
+import {Languages} from "@/Domain/Languages";
+import {Countries} from "@/Domain/Countries";
 
 export class Country implements ICountry {
     public readonly name: string;
@@ -21,8 +23,6 @@ export class Country implements ICountry {
     public readonly alpha2: string;
     public readonly alpha3: string;
     public readonly numeric: string;
-
-    public readonly continent: IContinent;
 
     public readonly direct_dialing_code: string;
 
@@ -51,14 +51,6 @@ export class Country implements ICountry {
                 ? idd.root + idd.suffixes[0]
                 : idd.root
             : "";
-
-        const continent = Object.keys(CONTINENT_MAP).find(key => CONTINENT_MAP[key] === c.continent);
-        if (!continent) {
-            throw new Error(`Unknown continent: ${c.continent}`);
-        }
-
-        this.continent = Continent.new({ alpha2: continent});
-
     }
 
     public static new(value: { code: string }): Country {
@@ -80,18 +72,38 @@ export class Country implements ICountry {
         return new Country(numeric, "iso_3166_1_numeric");
     }
 
-    public languages(): ILanguage[] {
+    public languages(): ILanguages {
         const entry = (simplelocalize as ISimplelocalizeData[]).find(
             (d) => d.country.iso_3166_1_alpha2.toLowerCase() === this.alpha2.toLowerCase()
         );
-        return (entry?.country.languages ?? []).map((l) => Language.new({ iso_639_1: l.iso_639_1 }));
+
+        let languages : ILanguages = Languages.empty();
+        if (!entry) {
+            return languages;
+        }
+
+        entry.country.languages.map((l) => Language.new({ iso_639_1: l.iso_639_1 })).forEach((l) => {
+            languages = languages.add(l);
+        })
+
+        return languages;
     }
 
-    public borders(): ICountry[] {
+    public borders(): ICountries {
         const entry = (simplelocalize as ISimplelocalizeData[]).find(
             (d) => d.country.iso_3166_1_alpha2.toLowerCase() === this.alpha2.toLowerCase()
         );
-        return (entry?.country.borders ?? []).map((b) => Country.fromIso31661Alpha2({ alpha2: b }));
+
+        let borders: ICountries = Countries.empty();
+        if (!entry) {
+            return borders;
+        }
+
+        entry.country.borders.map((b) => Country.fromIso31661Alpha2({ alpha2: b })).forEach((c) => {
+            borders = borders.add(c);
+        })
+
+        return borders;
     }
 
     public toLocale(value: { language: string }): ILocale {

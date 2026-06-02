@@ -1,7 +1,8 @@
-import {IContinent, ICountry, ISimplelocalizeData} from "@/Types";
+import {IContinent, ICountries, IRestcountriesData} from "@/Types";
 import {toMachineName} from "@/Utils/toMachineName";
-import simplelocalize from "@/data-sets/simplelocalize.io.json";
+import restcountries from "@/data-sets/restcountries.com.json";
 import {Country} from "@/Domain/Country";
+import {Countries} from "@/Domain/Countries";
 
 export const CONTINENT_MAP: Record<string, string> = {
     AF: 'Africa',
@@ -61,14 +62,11 @@ export class Continent implements IContinent {
         return Continent.new( {alpha2: 'SA'});
     }
 
-    public countries(): ICountry[] {
-        const seen = new Set<string>();
-        const result: ICountry[] = [];
-        for (const d of simplelocalize as ISimplelocalizeData[]) {
-            const alpha2 = d.country.iso_3166_1_alpha2;
-            if (d.country.continent === this.name && !seen.has(alpha2)) {
-                seen.add(alpha2);
-                result.push(Country.fromIso31661Alpha2({ alpha2 }));
+    public countries(): ICountries {
+        let result: ICountries = Countries.empty();
+        for (const d of restcountries as IRestcountriesData[]) {
+            if (d.continents.includes(this.name)) {
+                result = result.add(Country.fromIso31661Alpha2({ alpha2: d.cca2 }));
             }
         }
         return result;

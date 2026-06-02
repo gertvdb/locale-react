@@ -4,9 +4,9 @@ import * as Stories from "./Example.stories";
 
 <Meta of={Stories} />
 
-# `URL Locale Extraction`
+# Domain Objects
 
-This example demonstrates how to extract a locale from a URL using path segments, query parameters, or the hostname.
+This example demonstrates the `Language`, `Country`, and `Continent` domain classes.
 
 <br />
 
@@ -14,20 +14,68 @@ This example demonstrates how to extract a locale from a URL using path segments
 
 <Canvas of={Stories.Standard} />
 
-## Code
+## Language
 
 ```tsx
-import { SystemLocale } from "@gertvdb/locale";
-import { fromUrlPathSegment } from "@gertvdb/locale/utils/fromUrlPathSegment";
-import { fromUrlQueryParam } from "@gertvdb/locale/utils/fromUrlQueryParam";
-import { fromUrlHostname } from "@gertvdb/locale/utils/fromUrlHostname";
+import { Language } from "@gertvdb/locale";
 
-// From path segment: https://example.com/en-US/dashboard
-const pathLocale = fromUrlPathSegment({ url, default: SystemLocale });
+const language = Language.fromIso6391({ iso_639_1: 'fr' });
+// or
+const language = Language.fromIso6392({ iso_639_2: 'fra' });
+// or
+const language = Language.fromIso6393({ iso_639_3: 'fra' });
 
-// From query param: https://example.com/dashboard?locale=fr-BE
-const queryLocale = fromUrlQueryParam({ url, default: SystemLocale });
+language.name        // "French"
+language.local       // "français"
+language.iso_639_1   // "fr"
+language.iso_639_2   // "fra"
+language.iso_639_3   // "fra"
+language.machineName // "french"
+```
 
-// From hostname: https://de.example.com/dashboard
-const hostnameLocale = fromUrlHostname({ url, default: SystemLocale });
+## Country
+
+```tsx
+import { Country } from "@gertvdb/locale";
+
+const country = Country.fromIso31661Alpha2({ alpha2: 'BE' });
+// or
+const country = Country.fromIso31661Alpha3({ alpha3: 'BEL' });
+// or
+const country = Country.fromIso31661Numeric({ numeric: 56 });
+
+country.name                // "Belgium"
+country.alpha2              // "BE"
+country.alpha3              // "BEL"
+country.numeric             // "056"
+country.direct_dialing_code // "+32"
+country.continent.name      // "Europe"
+country.languages()         // ILanguage[]
+country.borders()           // ICountry[]
+
+// Convert to a locale
+const locale = country.toLocale({ language: 'fr' });
+```
+
+## Continent
+
+```tsx
+import { Continent } from "@gertvdb/locale";
+
+const continent = Continent.europe();
+// or
+const continent = Continent.new({ alpha2: 'EU' });
+
+// Other continents:
+Continent.africa()
+Continent.antarctica()
+Continent.asia()
+Continent.northAmerica()
+Continent.oceania()
+Continent.southAmerica()
+
+continent.name         // "Europe"
+continent.alpha2       // "EU"
+continent.machine_name // "europe"
+continent.countries()  // ICountry[]
 ```

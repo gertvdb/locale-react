@@ -6,7 +6,10 @@
       "suffixes": [
         "5818"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "VC",
@@ -15,7 +18,10 @@
       "suffixes": [
         "784"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "KP",
@@ -24,7 +30,10 @@
       "suffixes": [
         "50"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "NE",
@@ -33,7 +42,10 @@
       "suffixes": [
         "27"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "SR",
@@ -42,7 +54,10 @@
       "suffixes": [
         "97"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "FJ",
@@ -51,7 +66,10 @@
       "suffixes": [
         "79"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "IT",
@@ -60,7 +78,10 @@
       "suffixes": [
         "9"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "AU",
@@ -69,7 +90,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "GQ",
@@ -78,7 +102,10 @@
       "suffixes": [
         "40"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "TT",
@@ -87,7 +114,10 @@
       "suffixes": [
         "868"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "SH",
@@ -97,7 +127,10 @@
         "90",
         "47"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "NF",
@@ -106,7 +139,10 @@
       "suffixes": [
         "72"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "LB",
@@ -115,7 +151,10 @@
       "suffixes": [
         "61"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "OM",
@@ -124,7 +163,10 @@
       "suffixes": [
         "68"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "LS",
@@ -133,7 +175,10 @@
       "suffixes": [
         "66"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "GP",
@@ -142,7 +187,10 @@
       "suffixes": [
         "90"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "GB",
@@ -151,7 +199,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "WS",
@@ -160,7 +211,10 @@
       "suffixes": [
         "85"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "NZ",
@@ -169,7 +223,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "SX",
@@ -178,7 +235,10 @@
       "suffixes": [
         "721"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "MG",
@@ -187,7 +247,10 @@
       "suffixes": [
         "61"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "QA",
@@ -196,7 +259,10 @@
       "suffixes": [
         "74"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "JO",
@@ -205,7 +271,10 @@
       "suffixes": [
         "62"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "DE",
@@ -214,7 +283,10 @@
       "suffixes": [
         "9"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "VI",
@@ -223,7 +295,10 @@
       "suffixes": [
         "340"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "PF",
@@ -232,7 +307,10 @@
       "suffixes": [
         "89"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "MA",
@@ -241,7 +319,10 @@
       "suffixes": [
         "12"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "IO",
@@ -250,7 +331,10 @@
       "suffixes": [
         "46"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MT",
@@ -259,7 +343,10 @@
       "suffixes": [
         "56"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BB",
@@ -268,7 +355,10 @@
       "suffixes": [
         "246"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "TW",
@@ -277,7 +367,10 @@
       "suffixes": [
         "86"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MR",
@@ -286,7 +379,10 @@
       "suffixes": [
         "22"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "SV",
@@ -295,7 +391,10 @@
       "suffixes": [
         "03"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "BQ",
@@ -304,7 +403,10 @@
       "suffixes": [
         "99"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "CY",
@@ -313,7 +415,10 @@
       "suffixes": [
         "57"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "AZ",
@@ -322,7 +427,11 @@
       "suffixes": [
         "94"
       ]
-    }
+    },
+    "continents": [
+      "Europe",
+      "Asia"
+    ]
   },
   {
     "cca2": "TJ",
@@ -331,14 +440,20 @@
       "suffixes": [
         "92"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "AQ",
     "idd": {
       "root": "",
       "suffixes": []
-    }
+    },
+    "continents": [
+      "Antarctica"
+    ]
   },
   {
     "cca2": "SL",
@@ -347,7 +462,10 @@
       "suffixes": [
         "32"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "RO",
@@ -356,7 +474,10 @@
       "suffixes": [
         "0"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "GD",
@@ -365,7 +486,10 @@
       "suffixes": [
         "473"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "VA",
@@ -375,7 +499,10 @@
         "906698",
         "79"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "MW",
@@ -384,7 +511,10 @@
       "suffixes": [
         "65"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "KY",
@@ -393,7 +523,10 @@
       "suffixes": [
         "345"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "CF",
@@ -402,7 +535,10 @@
       "suffixes": [
         "36"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "TC",
@@ -411,7 +547,10 @@
       "suffixes": [
         "649"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "BZ",
@@ -420,7 +559,10 @@
       "suffixes": [
         "01"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "JE",
@@ -429,7 +571,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "AL",
@@ -438,7 +583,10 @@
       "suffixes": [
         "55"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "IN",
@@ -447,7 +595,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "PE",
@@ -456,7 +607,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "UY",
@@ -465,7 +619,10 @@
       "suffixes": [
         "98"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "WF",
@@ -474,7 +631,10 @@
       "suffixes": [
         "81"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "GW",
@@ -483,7 +643,10 @@
       "suffixes": [
         "45"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "TO",
@@ -492,7 +655,10 @@
       "suffixes": [
         "76"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "AT",
@@ -501,7 +667,10 @@
       "suffixes": [
         "3"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "LY",
@@ -510,7 +679,10 @@
       "suffixes": [
         "18"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "TN",
@@ -519,7 +691,10 @@
       "suffixes": [
         "16"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "MZ",
@@ -528,7 +703,10 @@
       "suffixes": [
         "58"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "CR",
@@ -537,7 +715,10 @@
       "suffixes": [
         "06"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "DO",
@@ -548,7 +729,10 @@
         "829",
         "849"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "FK",
@@ -557,7 +741,10 @@
       "suffixes": [
         "00"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "GR",
@@ -566,7 +753,10 @@
       "suffixes": [
         "0"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "SN",
@@ -575,7 +765,10 @@
       "suffixes": [
         "21"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "GN",
@@ -584,7 +777,10 @@
       "suffixes": [
         "24"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "KH",
@@ -593,7 +789,10 @@
       "suffixes": [
         "55"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MK",
@@ -602,7 +801,10 @@
       "suffixes": [
         "89"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "GI",
@@ -611,7 +813,10 @@
       "suffixes": [
         "50"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "RS",
@@ -620,7 +825,10 @@
       "suffixes": [
         "81"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "SY",
@@ -629,7 +837,10 @@
       "suffixes": [
         "63"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "ZA",
@@ -638,7 +849,10 @@
       "suffixes": [
         "7"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "AI",
@@ -647,7 +861,10 @@
       "suffixes": [
         "264"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "DM",
@@ -656,7 +873,10 @@
       "suffixes": [
         "767"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "TK",
@@ -665,7 +885,10 @@
       "suffixes": [
         "90"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "PA",
@@ -674,7 +897,10 @@
       "suffixes": [
         "07"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "YT",
@@ -683,7 +909,10 @@
       "suffixes": [
         "62"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "MX",
@@ -692,7 +921,10 @@
       "suffixes": [
         "2"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "FR",
@@ -701,7 +933,10 @@
       "suffixes": [
         "3"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BJ",
@@ -710,7 +945,10 @@
       "suffixes": [
         "29"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "LR",
@@ -719,7 +957,10 @@
       "suffixes": [
         "31"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "GL",
@@ -728,7 +969,10 @@
       "suffixes": [
         "99"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "ML",
@@ -737,7 +981,10 @@
       "suffixes": [
         "23"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "CO",
@@ -746,7 +993,10 @@
       "suffixes": [
         "7"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "DZ",
@@ -755,7 +1005,10 @@
       "suffixes": [
         "13"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "GT",
@@ -764,7 +1017,10 @@
       "suffixes": [
         "02"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "PH",
@@ -773,7 +1029,10 @@
       "suffixes": [
         "3"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "HU",
@@ -782,7 +1041,10 @@
       "suffixes": [
         "6"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "SE",
@@ -791,7 +1053,10 @@
       "suffixes": [
         "6"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "EG",
@@ -800,7 +1065,10 @@
       "suffixes": [
         "0"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "PG",
@@ -809,7 +1077,10 @@
       "suffixes": [
         "75"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "HT",
@@ -818,7 +1089,10 @@
       "suffixes": [
         "09"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "MP",
@@ -827,7 +1101,10 @@
       "suffixes": [
         "670"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "IR",
@@ -836,7 +1113,10 @@
       "suffixes": [
         "8"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "VU",
@@ -845,7 +1125,10 @@
       "suffixes": [
         "78"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "CH",
@@ -854,7 +1137,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BM",
@@ -863,7 +1149,10 @@
       "suffixes": [
         "441"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "JP",
@@ -872,7 +1161,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "PW",
@@ -881,7 +1173,10 @@
       "suffixes": [
         "80"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "GA",
@@ -890,7 +1185,10 @@
       "suffixes": [
         "41"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "SK",
@@ -899,7 +1197,10 @@
       "suffixes": [
         "21"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CN",
@@ -908,7 +1209,10 @@
       "suffixes": [
         "6"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MY",
@@ -917,7 +1221,10 @@
       "suffixes": [
         "0"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "ST",
@@ -926,7 +1233,10 @@
       "suffixes": [
         "39"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "GE",
@@ -935,7 +1245,10 @@
       "suffixes": [
         "95"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "TM",
@@ -944,7 +1257,10 @@
       "suffixes": [
         "93"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "BH",
@@ -953,7 +1269,10 @@
       "suffixes": [
         "73"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "VN",
@@ -962,7 +1281,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MF",
@@ -971,7 +1293,10 @@
       "suffixes": [
         "90"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "GG",
@@ -980,7 +1305,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BF",
@@ -989,7 +1317,10 @@
       "suffixes": [
         "26"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "IM",
@@ -998,7 +1329,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "GF",
@@ -1007,7 +1341,10 @@
       "suffixes": [
         "94"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "TG",
@@ -1016,7 +1353,10 @@
       "suffixes": [
         "28"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "NI",
@@ -1025,7 +1365,10 @@
       "suffixes": [
         "05"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "LV",
@@ -1034,7 +1377,10 @@
       "suffixes": [
         "71"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "NG",
@@ -1043,7 +1389,10 @@
       "suffixes": [
         "34"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "BN",
@@ -1052,7 +1401,10 @@
       "suffixes": [
         "73"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "LI",
@@ -1061,7 +1413,10 @@
       "suffixes": [
         "23"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "RE",
@@ -1070,7 +1425,10 @@
       "suffixes": [
         "62"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "LA",
@@ -1079,7 +1437,10 @@
       "suffixes": [
         "56"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "BO",
@@ -1088,7 +1449,10 @@
       "suffixes": [
         "91"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "GY",
@@ -1097,14 +1461,20 @@
       "suffixes": [
         "92"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "HM",
     "idd": {
       "root": "",
       "suffixes": []
-    }
+    },
+    "continents": [
+      "Antarctica"
+    ]
   },
   {
     "cca2": "CD",
@@ -1113,7 +1483,10 @@
       "suffixes": [
         "43"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "LK",
@@ -1122,7 +1495,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "NU",
@@ -1131,7 +1507,10 @@
       "suffixes": [
         "83"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "SB",
@@ -1140,7 +1519,10 @@
       "suffixes": [
         "77"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "RW",
@@ -1149,7 +1531,10 @@
       "suffixes": [
         "50"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "AR",
@@ -1158,7 +1543,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "IE",
@@ -1167,7 +1555,10 @@
       "suffixes": [
         "53"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "MQ",
@@ -1176,7 +1567,10 @@
       "suffixes": [
         "96"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "NP",
@@ -1185,7 +1579,10 @@
       "suffixes": [
         "77"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "BD",
@@ -1194,7 +1591,10 @@
       "suffixes": [
         "80"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "NR",
@@ -1203,7 +1603,10 @@
       "suffixes": [
         "74"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "TF",
@@ -1212,7 +1615,10 @@
       "suffixes": [
         "62"
       ]
-    }
+    },
+    "continents": [
+      "Antarctica"
+    ]
   },
   {
     "cca2": "SZ",
@@ -1221,7 +1627,10 @@
       "suffixes": [
         "68"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "KR",
@@ -1230,7 +1639,10 @@
       "suffixes": [
         "2"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "HR",
@@ -1239,7 +1651,10 @@
       "suffixes": [
         "85"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "UA",
@@ -1248,7 +1663,10 @@
       "suffixes": [
         "80"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "TV",
@@ -1257,7 +1675,10 @@
       "suffixes": [
         "88"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "HK",
@@ -1266,7 +1687,10 @@
       "suffixes": [
         "52"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MN",
@@ -1275,7 +1699,10 @@
       "suffixes": [
         "76"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "JM",
@@ -1285,7 +1712,10 @@
         "876",
         "658"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "BV",
@@ -1294,7 +1724,10 @@
       "suffixes": [
         "7"
       ]
-    }
+    },
+    "continents": [
+      "Antarctica"
+    ]
   },
   {
     "cca2": "SS",
@@ -1303,7 +1736,10 @@
       "suffixes": [
         "11"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "FM",
@@ -1312,7 +1748,10 @@
       "suffixes": [
         "91"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "SD",
@@ -1321,7 +1760,10 @@
       "suffixes": [
         "49"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "SO",
@@ -1330,7 +1772,10 @@
       "suffixes": [
         "52"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "ER",
@@ -1339,7 +1784,10 @@
       "suffixes": [
         "91"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "BS",
@@ -1348,7 +1796,10 @@
       "suffixes": [
         "242"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "ET",
@@ -1357,7 +1808,10 @@
       "suffixes": [
         "51"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "TR",
@@ -1366,7 +1820,11 @@
       "suffixes": [
         "0"
       ]
-    }
+    },
+    "continents": [
+      "Europe",
+      "Asia"
+    ]
   },
   {
     "cca2": "BI",
@@ -1375,7 +1833,10 @@
       "suffixes": [
         "57"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "PS",
@@ -1384,7 +1845,10 @@
       "suffixes": [
         "70"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "AS",
@@ -1393,7 +1857,10 @@
       "suffixes": [
         "684"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "AD",
@@ -1402,7 +1869,10 @@
       "suffixes": [
         "76"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BA",
@@ -1411,7 +1881,10 @@
       "suffixes": [
         "87"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "PN",
@@ -1420,7 +1893,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "MM",
@@ -1429,7 +1905,10 @@
       "suffixes": [
         "5"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "EE",
@@ -1438,7 +1917,10 @@
       "suffixes": [
         "72"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "SM",
@@ -1447,7 +1929,10 @@
       "suffixes": [
         "78"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "TD",
@@ -1456,7 +1941,10 @@
       "suffixes": [
         "35"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "IQ",
@@ -1465,7 +1953,10 @@
       "suffixes": [
         "64"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "DJ",
@@ -1474,7 +1965,10 @@
       "suffixes": [
         "53"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "IS",
@@ -1483,7 +1977,10 @@
       "suffixes": [
         "54"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "TH",
@@ -1492,7 +1989,10 @@
       "suffixes": [
         "6"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "AG",
@@ -1501,7 +2001,10 @@
       "suffixes": [
         "268"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "BR",
@@ -1510,7 +2013,10 @@
       "suffixes": [
         "5"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "ES",
@@ -1519,7 +2025,10 @@
       "suffixes": [
         "4"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "GU",
@@ -1528,7 +2037,10 @@
       "suffixes": [
         "671"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "KE",
@@ -1537,7 +2049,10 @@
       "suffixes": [
         "54"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "AE",
@@ -1546,7 +2061,10 @@
       "suffixes": [
         "71"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MD",
@@ -1555,7 +2073,10 @@
       "suffixes": [
         "73"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "KG",
@@ -1564,7 +2085,10 @@
       "suffixes": [
         "96"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "BL",
@@ -1573,7 +2097,10 @@
       "suffixes": [
         "90"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "GH",
@@ -1582,7 +2109,10 @@
       "suffixes": [
         "33"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "TL",
@@ -1591,7 +2121,10 @@
       "suffixes": [
         "70"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "GM",
@@ -1600,7 +2133,10 @@
       "suffixes": [
         "20"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "BW",
@@ -1609,7 +2145,10 @@
       "suffixes": [
         "67"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "ZM",
@@ -1618,7 +2157,10 @@
       "suffixes": [
         "60"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "NC",
@@ -1627,7 +2169,10 @@
       "suffixes": [
         "87"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "BY",
@@ -1636,7 +2181,10 @@
       "suffixes": [
         "75"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CV",
@@ -1645,7 +2193,10 @@
       "suffixes": [
         "38"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "KN",
@@ -1654,7 +2205,10 @@
       "suffixes": [
         "869"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "RU",
@@ -1667,7 +2221,11 @@
         "8",
         "9"
       ]
-    }
+    },
+    "continents": [
+      "Europe",
+      "Asia"
+    ]
   },
   {
     "cca2": "EH",
@@ -1677,7 +2235,10 @@
         "125288",
         "125289"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "DK",
@@ -1686,7 +2247,10 @@
       "suffixes": [
         "5"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "LU",
@@ -1695,7 +2259,10 @@
       "suffixes": [
         "52"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CM",
@@ -1704,7 +2271,10 @@
       "suffixes": [
         "37"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "CX",
@@ -1713,7 +2283,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "VE",
@@ -1722,7 +2295,10 @@
       "suffixes": [
         "8"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "YE",
@@ -1731,7 +2307,10 @@
       "suffixes": [
         "67"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "AO",
@@ -1740,7 +2319,10 @@
       "suffixes": [
         "44"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "PK",
@@ -1749,7 +2331,10 @@
       "suffixes": [
         "2"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "UZ",
@@ -1758,7 +2343,10 @@
       "suffixes": [
         "98"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "CA",
@@ -1767,7 +2355,10 @@
       "suffixes": [
         ""
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "ID",
@@ -1776,7 +2367,10 @@
       "suffixes": [
         "2"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "NA",
@@ -1785,7 +2379,10 @@
       "suffixes": [
         "64"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "NL",
@@ -1794,7 +2391,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "SC",
@@ -1803,7 +2403,10 @@
       "suffixes": [
         "48"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "NO",
@@ -1812,7 +2415,10 @@
       "suffixes": [
         "7"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "HN",
@@ -1821,7 +2427,10 @@
       "suffixes": [
         "04"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "ME",
@@ -1830,7 +2439,10 @@
       "suffixes": [
         "82"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "PT",
@@ -1839,7 +2451,10 @@
       "suffixes": [
         "51"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "IL",
@@ -1848,7 +2463,10 @@
       "suffixes": [
         "72"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "FO",
@@ -1857,7 +2475,10 @@
       "suffixes": [
         "98"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "KI",
@@ -1866,7 +2487,10 @@
       "suffixes": [
         "86"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "SA",
@@ -1875,7 +2499,10 @@
       "suffixes": [
         "66"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "CL",
@@ -1884,7 +2511,10 @@
       "suffixes": [
         "6"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "CK",
@@ -1893,7 +2523,10 @@
       "suffixes": [
         "82"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "MS",
@@ -1902,7 +2535,10 @@
       "suffixes": [
         "664"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "GS",
@@ -1911,7 +2547,10 @@
       "suffixes": [
         "00"
       ]
-    }
+    },
+    "continents": [
+      "Antarctica"
+    ]
   },
   {
     "cca2": "AM",
@@ -1920,7 +2559,10 @@
       "suffixes": [
         "74"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "BE",
@@ -1929,7 +2571,10 @@
       "suffixes": [
         "2"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BT",
@@ -1938,7 +2583,10 @@
       "suffixes": [
         "75"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "UM",
@@ -1947,7 +2595,10 @@
       "suffixes": [
         "68"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "SI",
@@ -1956,7 +2607,10 @@
       "suffixes": [
         "86"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CI",
@@ -1965,7 +2619,10 @@
       "suffixes": [
         "25"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "MC",
@@ -1974,7 +2631,10 @@
       "suffixes": [
         "77"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "TZ",
@@ -1983,7 +2643,10 @@
       "suffixes": [
         "55"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "US",
@@ -2308,7 +2971,10 @@
         "985",
         "989"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "MO",
@@ -2317,7 +2983,10 @@
       "suffixes": [
         "53"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "KZ",
@@ -2327,7 +2996,10 @@
         "6",
         "7"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MH",
@@ -2336,7 +3008,10 @@
       "suffixes": [
         "92"
       ]
-    }
+    },
+    "continents": [
+      "Oceania"
+    ]
   },
   {
     "cca2": "CU",
@@ -2345,7 +3020,10 @@
       "suffixes": [
         "3"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "CW",
@@ -2354,7 +3032,10 @@
       "suffixes": [
         "99"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "PL",
@@ -2363,7 +3044,10 @@
       "suffixes": [
         "8"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "MU",
@@ -2372,7 +3056,10 @@
       "suffixes": [
         "30"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "AF",
@@ -2381,7 +3068,10 @@
       "suffixes": [
         "3"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "MV",
@@ -2390,7 +3080,10 @@
       "suffixes": [
         "60"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "UG",
@@ -2399,7 +3092,10 @@
       "suffixes": [
         "56"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "KW",
@@ -2408,7 +3104,10 @@
       "suffixes": [
         "65"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "SJ",
@@ -2417,7 +3116,10 @@
       "suffixes": [
         "779"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CC",
@@ -2426,7 +3128,10 @@
       "suffixes": [
         "1"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "EC",
@@ -2435,7 +3140,10 @@
       "suffixes": [
         "93"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "PM",
@@ -2444,7 +3152,10 @@
       "suffixes": [
         "08"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "KM",
@@ -2453,7 +3164,10 @@
       "suffixes": [
         "69"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "LT",
@@ -2462,7 +3176,10 @@
       "suffixes": [
         "70"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "SG",
@@ -2471,7 +3188,10 @@
       "suffixes": [
         "5"
       ]
-    }
+    },
+    "continents": [
+      "Asia"
+    ]
   },
   {
     "cca2": "AW",
@@ -2480,7 +3200,10 @@
       "suffixes": [
         "97"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "VG",
@@ -2489,7 +3212,10 @@
       "suffixes": [
         "284"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "FI",
@@ -2498,7 +3224,10 @@
       "suffixes": [
         "58"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "BG",
@@ -2507,7 +3236,10 @@
       "suffixes": [
         "59"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CG",
@@ -2516,7 +3248,10 @@
       "suffixes": [
         "42"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "LC",
@@ -2525,7 +3260,10 @@
       "suffixes": [
         "758"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   },
   {
     "cca2": "ZW",
@@ -2534,7 +3272,10 @@
       "suffixes": [
         "63"
       ]
-    }
+    },
+    "continents": [
+      "Africa"
+    ]
   },
   {
     "cca2": "PY",
@@ -2543,7 +3284,10 @@
       "suffixes": [
         "95"
       ]
-    }
+    },
+    "continents": [
+      "South America"
+    ]
   },
   {
     "cca2": "XK",
@@ -2552,7 +3296,10 @@
       "suffixes": [
         "83"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "CZ",
@@ -2561,7 +3308,10 @@
       "suffixes": [
         "20"
       ]
-    }
+    },
+    "continents": [
+      "Europe"
+    ]
   },
   {
     "cca2": "PR",
@@ -2571,6 +3321,9 @@
         "787",
         "939"
       ]
-    }
+    },
+    "continents": [
+      "North America"
+    ]
   }
 ]
