@@ -1,6 +1,6 @@
-# @tacky-org/locale
+# Tacky Locale
 
-A lightweight locale management library for React and TypeScript. It provides a structured way to handle locales, languages, countries, and continents using the native `Intl` API and built-in datasets from [simplelocalize.io](https://simplelocalize.io) and [restcountries.com](https://restcountries.com).
+A lightweight locale management library for React and TypeScript. It provides a structured way to handle locales, languages, countries, and continents integrating with the native `Intl` API and built-in datasets from [simplelocalize.io](https://simplelocalize.io) and [restcountries.com](https://restcountries.com).
 
 ## Features
 
