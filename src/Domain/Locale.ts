@@ -60,7 +60,7 @@ export class Locale implements ILocale {
   }
 
   public country(): ICountry {
-    return Country.fromIso31661Alpha2({ alpha2: this.country_code });
+    return Country.from({ code: this.country_code });
   }
 
   public toIntlLocale(): Intl.Locale {

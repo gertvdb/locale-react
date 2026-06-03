@@ -9,7 +9,7 @@ A lightweight locale management library for React and TypeScript. It provides a 
 - **System Locale**: Easily access the current system's locale.
 - **React integration**: `LocaleProvider` and `useLocale` hook for React apps.
 - **Rich country data**: ISO 3166-1 codes, direct dialing codes, borders, and spoken languages.
-- **Rich language data**: ISO 639-1/2/3 codes backed by the simplelocalize dataset.
+- **Rich language data**: Alpha-2 and alpha-3 codes backed by the simplelocalize dataset.
 - **Continent support**: Group and filter countries by continent.
 
 ## Installation
@@ -31,8 +31,8 @@ console.log(SystemLocale.locale);        // e.g., "en-US"
 console.log(SystemLocale.language_code); // "en"
 console.log(SystemLocale.country_code);  // "US"
 
-const language = SystemLocale.language(); // ILanguage
-const country  = SystemLocale.country();  // ICountry
+const language = SystemLocale.language();    // ILanguage
+const country  = SystemLocale.country();     // ICountry
 const intl     = SystemLocale.toIntlLocale(); // Intl.Locale
 ```
 
@@ -65,28 +65,32 @@ const locale3 = Locale.fromIntlLocale({ locale: new Intl.Locale('en-US') });
 ### Language class
 
 ```typescript
-import { Language } from '@tacky-org/locale';
+import { Language, LanguageCodeFormat } from '@tacky-org/locale';
 
-const lang = Language.fromIso6391({ iso_639_1: 'nl' });
-const lang2 = Language.fromIso6392({ iso_639_2: 'nld' });
-const lang3 = Language.fromIso6393({ iso_639_3: 'nld' });
+// format defaults to LanguageCodeFormat.ALPHA2
+const lang  = Language.from({ code: 'nl' });
+const lang2 = Language.from({ code: 'nl', format: LanguageCodeFormat.ALPHA2 });
+const lang3 = Language.from({ code: 'nld', format: LanguageCodeFormat.ALPHA3 });
 
 console.log(lang.name);         // "Dutch"
 console.log(lang.machine_name); // "dutch"
-console.log(lang.iso_639_1);    // "nl"
+console.log(lang.alpha2);       // "nl"
+console.log(lang.alpha3);       // "nld"
 
 // Create a locale from a language
-const locale = lang.toLocale({ country: 'BE' });
+const locale = lang.toLocale({ country: 'BE' }); // "nl-BE"
 ```
 
 ### Country class
 
 ```typescript
-import { Country } from '@tacky-org/locale';
+import { Country, CountryCodeFormat } from '@tacky-org/locale';
 
-const country = Country.fromIso31661Alpha2({ alpha2: 'BE' });
-const country2 = Country.fromIso31661Alpha3({ alpha3: 'BEL' });
-const country3 = Country.fromIso31661Numeric({ numeric: '056' });
+// format defaults to CountryCodeFormat.ALPHA2
+const country  = Country.from({ code: 'BE' });
+const country2 = Country.from({ code: 'BE',  format: CountryCodeFormat.ALPHA2 });
+const country3 = Country.from({ code: 'BEL', format: CountryCodeFormat.ALPHA3 });
+const country4 = Country.from({ code: '056', format: CountryCodeFormat.NUMERIC });
 
 console.log(country.name);                // "Belgium"
 console.log(country.machine_name);        // "belgium"
@@ -100,22 +104,25 @@ const languages = country.languages(); // ILanguages
 const borders   = country.borders();   // ICountries
 
 // Create a locale from a country
-const locale = country.toLocale({ language: 'nl' });
+const locale = country.toLocale({ language: 'nl' }); // "nl-BE"
 ```
 
 ### Countries collection
 
 ```typescript
-import { Countries, CountryLookUp } from '@tacky-org/locale';
+import { Countries, CountryCodeFormat } from '@tacky-org/locale';
 
 // Create from arrays
 const benelux = Countries.benelux();
-const eu = Countries.fromAlpha2({ alpha2: ['BE', 'NL', 'DE', 'FR'] });
+const group   = Countries.fromAlpha2({ alpha2: ['BE', 'NL', 'DE', 'FR'] });
+const group2  = Countries.fromAlpha3({ alpha3: ['BEL', 'NLD'] });
+const group3  = Countries.fromNumeric({ numeric: ['056', '528'] });
 
 // Manipulation (immutable)
-const without = eu.removeBy(CountryLookUp.ALPHA2, ['DE']);
-const found   = eu.lookUpBy(CountryLookUp.ALPHA2, 'BE'); // ICountry | undefined
-const arr     = eu.toArray(); // ICountry[]
+const without = group.removeBy(CountryCodeFormat.ALPHA2, ['DE']);
+const found   = group.lookUpBy(CountryCodeFormat.ALPHA2, 'BE'); // ICountry | undefined
+const arr     = group.toArray(); // ICountry[]
+console.log(group.size); // 4
 ```
 
 ### Continent class
@@ -124,7 +131,6 @@ const arr     = eu.toArray(); // ICountry[]
 import { Continent } from '@tacky-org/locale';
 
 const europe = Continent.europe();
-const asia   = Continent.asia();
 
 console.log(europe.name);         // "Europe"
 console.log(europe.machine_name); // "europe"
@@ -170,9 +176,10 @@ function MyComponent() {
 | Type | Description |
 |------|-------------|
 | `ILocale` | Locale object with `locale`, `language_code`, `country_code`, `language()`, `country()`, `toIntlLocale()` |
-| `ILanguage` | Language with `name`, `machine_name`, `iso_639_1`, `iso_639_2`, `iso_639_3` |
+| `ILanguage` | Language with `name`, `machine_name`, `alpha2`, `alpha3` |
 | `ILanguages` | Immutable collection of `ILanguage` with `add`, `remove`, `toArray` |
-| `ICountry` | Country with ISO codes, `direct_dialing_code`, `languages()`, `borders()` |
-| `ICountries` | Immutable collection of `ICountry` with lookup, add, remove methods |
+| `ICountry` | Country with `alpha2`, `alpha3`, `numeric`, `direct_dialing_code`, `languages()`, `borders()` |
+| `ICountries` | Immutable collection of `ICountry` with `add`, `remove`, `removeBy`, `lookUpBy`, `lookUpsBy`, `toArray` |
 | `IContinent` | Continent with `name`, `machine_name`, `alpha2`, `countries()` |
-| `CountryLookUp` | Enum: `ALPHA2`, `ALPHA3`, `NUMERIC` |
+| `LanguageCodeFormat` | Enum: `ALPHA2`, `ALPHA3` |
+| `CountryCodeFormat` | Enum: `ALPHA2`, `ALPHA3`, `NUMERIC` |

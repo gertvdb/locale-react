@@ -4,38 +4,42 @@ import {
   ISimplelocalizeData,
   ISimplelocalizeCountry,
   ILocale,
-  ILanguage,
-  IContinent,
   ILanguages,
   ICountries,
+  CountryCodeFormat,
 } from "@/Types";
 import { toMachineName } from "@/Utils/toMachineName";
 
 // Dataset : https://cdn.simplelocalize.io/public/v1/locales
-import simplelocalize from "@/data-sets/simplelocalize.io.json";
+import simplelocalize from "@/Datasets/simplelocalize.io.json";
 
 // Dataset : https://restcountries.com/v4/all?fields=idd,cca2,continents
-import restcountries from "@/data-sets/restcountries.com.json";
+import restcountries from "@/Datasets/restcountries.com.json";
 import { Locale } from "@/Domain/Locale";
 import { Language } from "@/Domain/Language";
 import { Languages } from "@/Domain/Languages";
 import { Countries } from "@/Domain/Countries";
 
+const FORMAT_TO_FIELD: Record<
+  CountryCodeFormat,
+  keyof ISimplelocalizeCountry
+> = {
+  [CountryCodeFormat.ALPHA2]: "iso_3166_1_alpha2",
+  [CountryCodeFormat.ALPHA3]: "iso_3166_1_alpha3",
+  [CountryCodeFormat.NUMERIC]: "iso_3166_1_numeric",
+};
+
 export class Country implements ICountry {
   public readonly name: string;
-
   public readonly machine_name: string;
-
   public readonly alpha2: string;
   public readonly alpha3: string;
   public readonly numeric: string;
-
   public readonly direct_dialing_code: string;
 
-  private constructor(
-    value: string,
-    field: "iso_3166_1_numeric" | "iso_3166_1_alpha2" | "iso_3166_1_alpha3",
-  ) {
+  private constructor(value: string, format: CountryCodeFormat) {
+    const field = FORMAT_TO_FIELD[format];
+
     const entry = (simplelocalize as ISimplelocalizeData[]).find(
       (d) =>
         String((d.country as ISimplelocalizeCountry)[field]).toLowerCase() ===
@@ -65,25 +69,14 @@ export class Country implements ICountry {
   }
 
   public static new(value: { code: string }): Country {
-    return new Country(value.code, "iso_3166_1_alpha2");
+    return new Country(value.code, CountryCodeFormat.ALPHA2);
   }
 
-  public static fromIso31661Alpha2(value: { alpha2: string }): Country {
-    return new Country(value.alpha2, "iso_3166_1_alpha2");
-  }
-
-  public static fromIso31661Alpha3(value: { alpha3: string }): Country {
-    return new Country(value.alpha3, "iso_3166_1_alpha3");
-  }
-
-  public static fromIso31661Numeric(value: {
-    numeric: number | string;
+  public static from(value: {
+    code: string;
+    format?: CountryCodeFormat;
   }): Country {
-    const numeric =
-      typeof value.numeric === "number"
-        ? String(value.numeric).padStart(3, "0")
-        : value.numeric;
-    return new Country(numeric, "iso_3166_1_numeric");
+    return new Country(value.code, value.format ?? CountryCodeFormat.ALPHA2);
   }
 
   public languages(): ILanguages {
@@ -98,7 +91,7 @@ export class Country implements ICountry {
     }
 
     entry.country.languages
-      .map((l) => Language.new({ iso_639_1: l.iso_639_1 }))
+      .map((l) => Language.new({ code: l.iso_639_1 }))
       .forEach((l) => {
         languages = languages.add(l);
       });
@@ -118,7 +111,7 @@ export class Country implements ICountry {
     }
 
     entry.country.borders
-      .map((b) => Country.fromIso31661Alpha2({ alpha2: b }))
+      .map((b) => Country.from({ code: b }))
       .forEach((c) => {
         borders = borders.add(c);
       });

@@ -40,7 +40,7 @@ export interface ICountry {
   borders(): ICountries;
 }
 
-export enum CountryLookUp {
+export enum CountryCodeFormat {
   ALPHA2 = "alpha2",
   ALPHA3 = "alpha3",
   NUMERIC = "numeric",
@@ -49,12 +49,17 @@ export enum CountryLookUp {
 export interface ICountries {
   add(country: ICountry): ICountries;
   remove(country: ICountry): ICountries;
-  removeBy(by: CountryLookUp, identifiers: string[] | string): ICountries;
-  lookUpsBy(by: CountryLookUp, identifiers: string[]): ICountries;
-  lookUpBy(by: CountryLookUp, identifiers: string): ICountry | undefined;
+  removeBy(by: CountryCodeFormat, identifiers: string[] | string): ICountries;
+  lookUpsBy(by: CountryCodeFormat, identifiers: string[]): ICountries;
+  lookUpBy(by: CountryCodeFormat, identifiers: string): ICountry | undefined;
   toArray(): ICountry[];
   //sortLocale(translate: (value: string) => string): ICountry;
   //spokenLanguages(): ICountryLanguageCollection;
+}
+
+export enum LanguageCodeFormat {
+  ALPHA2 = "alpha2",
+  ALPHA3 = "alpha3",
 }
 
 export interface ILanguage {
@@ -63,9 +68,8 @@ export interface ILanguage {
   // This can be used for translations, as it provides a machine-readable identifier for the country in a stable format for translations.
   machine_name: string;
 
-  iso_639_1: string;
-  iso_639_2: string;
-  iso_639_3: string;
+  alpha2: string;
+  alpha3: string;
 }
 
 export interface ILanguages {

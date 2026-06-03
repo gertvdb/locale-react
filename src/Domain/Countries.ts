@@ -1,4 +1,4 @@
-import { CountryLookUp, ICountries, ICountry } from "@/Types";
+import { CountryCodeFormat, ICountries, ICountry } from "@/Types";
 import { Country } from "@/Domain/Country";
 
 export class Countries implements ICountries {
@@ -18,19 +18,23 @@ export class Countries implements ICountries {
 
   public static fromAlpha2(value: { alpha2: string[] }): Countries {
     return new Countries(
-      value.alpha2.map((c) => Country.fromIso31661Alpha2({ alpha2: c })),
+      value.alpha2.map((c) => Country.from({ code: c })),
     );
   }
 
   public static fromAlpha3(value: { alpha3: string[] }): Countries {
     return new Countries(
-      value.alpha3.map((c) => Country.fromIso31661Alpha3({ alpha3: c })),
+      value.alpha3.map((c) =>
+        Country.from({ code: c, format: CountryCodeFormat.ALPHA3 }),
+      ),
     );
   }
 
   public static fromNumeric(value: { numeric: string[] }): Countries {
     return new Countries(
-      value.numeric.map((c) => Country.fromIso31661Numeric({ numeric: c })),
+      value.numeric.map((c) =>
+        Country.from({ code: c, format: CountryCodeFormat.NUMERIC }),
+      ),
     );
   }
 
@@ -44,7 +48,7 @@ export class Countries implements ICountries {
     );
 
     if (exists) {
-      return this; // Return the current collection if the country already exists
+      return this;
     }
 
     const newCollection = [...this.values, country];
@@ -59,12 +63,10 @@ export class Countries implements ICountries {
     return new Countries(newCollection);
   }
 
-  removeBy(by: CountryLookUp, identifiers: string[] | string): ICountries {
+  removeBy(by: CountryCodeFormat, identifiers: string[] | string): ICountries {
     if (Array.isArray(identifiers)) {
       const toRemove = this.lookUpsBy(by, identifiers);
-      const toRemoveArray = toRemove.toArray().map((country) => {
-        return country;
-      });
+      const toRemoveArray = toRemove.toArray();
 
       let coll: ICountries = Countries.empty();
       toRemoveArray.forEach((country) => {
@@ -81,23 +83,21 @@ export class Countries implements ICountries {
     return this;
   }
 
-  lookUpsBy(by: CountryLookUp, identifiers: string[]): ICountries {
-    const normalizedIdentifiers = identifiers.map((identifier) => {
-      return identifier.toLowerCase();
-    });
+  lookUpsBy(by: CountryCodeFormat, identifiers: string[]): ICountries {
+    const normalizedIdentifiers = identifiers.map((id) => id.toLowerCase());
 
     const lookup = this.toArray()
       .map((country) => {
         switch (by) {
-          case CountryLookUp.ALPHA2:
+          case CountryCodeFormat.ALPHA2:
             return normalizedIdentifiers.includes(country.alpha2.toLowerCase())
               ? country
               : null;
-          case CountryLookUp.ALPHA3:
+          case CountryCodeFormat.ALPHA3:
             return normalizedIdentifiers.includes(country.alpha3.toLowerCase())
               ? country
               : null;
-          case CountryLookUp.NUMERIC:
+          case CountryCodeFormat.NUMERIC:
             return normalizedIdentifiers.includes(country.numeric.toLowerCase())
               ? country
               : null;
@@ -115,20 +115,23 @@ export class Countries implements ICountries {
     return collection;
   }
 
-  lookUpBy(by: CountryLookUp, identifiers: string): ICountry | undefined {
+  lookUpBy(by: CountryCodeFormat, identifiers: string): ICountry | undefined {
     switch (by) {
-      case CountryLookUp.ALPHA2:
-        return this.toArray().find((country) => {
-          return country.alpha2.toLowerCase() === identifiers.toLowerCase();
-        });
-      case CountryLookUp.ALPHA3:
-        return this.toArray().find((country) => {
-          return country.alpha3.toLowerCase() === identifiers.toLowerCase();
-        });
-      case CountryLookUp.NUMERIC:
-        return this.toArray().find((country) => {
-          return country.numeric.toLowerCase() === identifiers.toLowerCase();
-        });
+      case CountryCodeFormat.ALPHA2:
+        return this.toArray().find(
+          (country) =>
+            country.alpha2.toLowerCase() === identifiers.toLowerCase(),
+        );
+      case CountryCodeFormat.ALPHA3:
+        return this.toArray().find(
+          (country) =>
+            country.alpha3.toLowerCase() === identifiers.toLowerCase(),
+        );
+      case CountryCodeFormat.NUMERIC:
+        return this.toArray().find(
+          (country) =>
+            country.numeric.toLowerCase() === identifiers.toLowerCase(),
+        );
     }
   }
 

@@ -66,7 +66,7 @@ export class Continent implements IContinent {
     let result: ICountries = Countries.empty();
     for (const d of restcountries as IRestcountriesData[]) {
       if (d.continents.includes(this.name)) {
-        result = result.add(Country.fromIso31661Alpha2({ alpha2: d.cca2 }));
+        result = result.add(Country.from({ code: d.cca2 }));
       }
     }
     return result;

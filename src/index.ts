@@ -24,3 +24,4 @@ export { Countries } from "./Domain/Countries";
 export { Continent } from "./Domain/Continent";
 
 export { LocaleProvider } from "./Provider/LocaleProvider";
+export { useLocale } from "./Hooks/useLocale";
