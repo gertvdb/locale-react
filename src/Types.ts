@@ -1,3 +1,30 @@
+export enum MatchingPolicy {
+  /**
+   * The language-country combination must exist as an entry in the dataset.
+   */
+  STRICT = "strict",
+  /**
+   * The language and the country must each exist somewhere in the dataset,
+   * but they do not need to appear together as a combination.
+   */
+  LOOSE = "loose",
+}
+
+/**
+ * A uniform policy (applies to all locales) or a per-language policy map with a required default.
+ *
+ * @example
+ * // uniform
+ * MatchingPolicy.STRICT
+ *
+ * @example
+ * // per-language: loose for "en" and "nl", strict for everything else
+ * { default: MatchingPolicy.STRICT, languages: { en: MatchingPolicy.LOOSE, nl: MatchingPolicy.LOOSE } }
+ */
+export type LocalePolicy =
+  | MatchingPolicy
+  | { default: MatchingPolicy; languages: Record<string, MatchingPolicy> };
+
 export interface ILocale {
   locale: string;
   language_code: string;
@@ -130,3 +157,5 @@ export interface IRestcountriesIdd {
   root: string;
   suffixes: string[];
 }
+
+export type LocaleOverrides = { "*": string } & Record<string, string>;

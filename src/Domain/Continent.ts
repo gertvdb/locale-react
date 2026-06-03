@@ -1,6 +1,6 @@
 import { IContinent, ICountries, IRestcountriesData } from "@/Types";
 import { toMachineName } from "@/Utils/toMachineName";
-import restcountries from "@/data-sets/restcountries.com.json";
+import restcountries from "@/Datasets/restcountries.com.json";
 import { Country } from "@/Domain/Country";
 import { Countries } from "@/Domain/Countries";
 

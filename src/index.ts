@@ -12,6 +12,7 @@ export { SystemLocale } from "./Domain/SystemLocale";
  * @param value Object containing languageOrLocale and optional region.
  */
 export { createLocale } from "./Utils/createLocale";
+export { resolveLocale } from "./Utils/resolveLocale";
 
 /**
  * Domain entities representing geographical and linguistic information.

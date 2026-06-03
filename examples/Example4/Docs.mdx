@@ -1,0 +1,40 @@
+import React from "react";
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as Stories from "./Example.stories";
+
+<Meta of={Stories} />
+
+# Loose Locale
+
+By default, `createLocale` uses **strict** matching — the language-country combination must exist as an entry in the dataset. With a **loose** policy the language and the country are each validated independently, so any valid combination is accepted even if it doesn't appear in the dataset.
+
+The policy can be applied uniformly or **per language**, using the same map-with-default pattern as `resolveLocale` overrides.
+
+<br />
+
+## Demo
+
+<Canvas of={Stories.Standard} />
+
+## Code
+
+```tsx
+import { createLocale, MatchingPolicy } from "@tacky-org/locale";
+
+const policy = {
+    default: MatchingPolicy.STRICT,
+    languages: {
+        en: MatchingPolicy.LOOSE,
+        nl: MatchingPolicy.LOOSE,
+    },
+};
+
+// en-BE is not a dataset combination, but allowed — "en" is loose
+createLocale({ languageOrLocale: "en", country: "BE", policy });
+
+// nl-DE is not a dataset combination, but allowed — "nl" is loose
+createLocale({ languageOrLocale: "nl", country: "DE", policy });
+
+// fr-BE must exist in the dataset — "fr" falls back to the strict default
+createLocale({ languageOrLocale: "fr", country: "BE", policy });
+```

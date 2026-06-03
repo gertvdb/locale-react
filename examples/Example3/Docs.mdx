@@ -1,0 +1,39 @@
+import React from "react";
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as Stories from "./Example.stories";
+
+<Meta of={Stories} />
+
+# `resolveLocale`
+
+Resolves a detected locale to the best match within a list of supported locales.
+
+<br />
+
+## Resolution order
+
+1. **Exact match** — locale is directly in the supported list
+2. **Exact override** — locale matches an override key (e.g. `"en-US": "nl-BE"`)
+3. **Wildcard override** — locale matches a pattern using `*` (e.g. `"en-*": "nl-BE"`)
+4. **Language fallback** — first supported locale with the same language code
+5. **Catch-all `*`** — required key, always returns a locale
+
+## Demo
+
+<Canvas of={Stories.Standard} />
+
+## Code
+
+```tsx
+import { resolveLocale, SystemLocale } from "@tacky-org/locale";
+
+const locale = resolveLocale(
+  SystemLocale,
+  ["nl-NL", "nl-BE", "fr-BE"],
+  {
+    "*-BE": "fr-BE",  // German is not support, so send german speaking belgians to fr-BE
+    "en-*": "nl-NL",  // Send all english speaking users of and unsupported country to nl-NL
+    "*":    "nl-BE",  // Fallback to nl-BE if no other match is found
+  },
+);
+```

@@ -19,17 +19,16 @@ const Section = ({ title, rows }: { title: string; rows: [string, React.ReactNod
 );
 
 export const Example = () => {
-    const language = Language.fromIso6391({ iso_639_1: 'fr' });
-    const country = Country.fromIso31661Alpha2({ alpha2: 'BE' });
+    const language = Language.from({ code: 'fr' });
+    const country = Country.from({ code: 'BE' });
     const continent = Continent.europe();
 
     return (
         <div style={{ fontFamily: 'sans-serif', padding: '20px', display: 'flex', flexDirection: 'column', gap: '32px' }}>
             <Section title="Language — French (fr)" rows={[
                 ['name',       language.name],
-                ['iso_639_1',  language.iso_639_1],
-                ['iso_639_2',  language.iso_639_2],
-                ['iso_639_3',  language.iso_639_3],
+                ['alpha2',  language.alpha2],
+                ['alpha3',  language.alpha3],
                 ['machine_name',language.machine_name],
             ]} />
 
@@ -40,11 +39,11 @@ export const Example = () => {
                 ['numeric',            country.numeric],
                 ['machine_name',       country.machine_name],
                 ['direct_dialing_code',country.direct_dialing_code],
-                ['languages',          country.languages().toArray().map(l => l.name).join(', ')],
+                ['languages',          country.languages().toArray().map(l => l.name).join(' | ')],
                 ['borders',            country.borders()
                     .toArray()
                     .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(c => c.name + '(' + c.alpha2 + ')').join(', ')],
+                    .map(c => c.name + '(' + c.alpha2 + ')').join(' | ')],
             ]} />
 
             <Section title="Continent — Europe (EU)" rows={[
@@ -54,7 +53,7 @@ export const Example = () => {
                 ['countries',   continent.countries()
                     .toArray()
                     .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(c => c.name + '(' + c.alpha2 + ')').join(', ')],
+                    .map(c => c.name + '(' + c.alpha2 + ')').join(' | ')],
             ]} />
         </div>
     );

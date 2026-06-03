@@ -15,7 +15,7 @@ export class Languages implements ILanguages {
   add(language: ILanguage): ILanguages {
     const exists = this.toArray().find(
       (item) =>
-        item.iso_639_1.toLowerCase() === language.iso_639_1.toLowerCase(),
+        item.alpha2.toLowerCase() === language.alpha2.toLowerCase(),
     );
 
     if (exists) {
@@ -29,7 +29,7 @@ export class Languages implements ILanguages {
   remove(language: ILanguage): ILanguages {
     const newCollection = this.values.filter(
       (item) =>
-        item.iso_639_1.toLowerCase() !== language.iso_639_1.toLowerCase(),
+        item.alpha2.toLowerCase() !== language.alpha2.toLowerCase(),
     );
 
     return new Languages(newCollection);

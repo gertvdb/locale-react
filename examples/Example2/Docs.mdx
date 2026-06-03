@@ -17,7 +17,7 @@ This example demonstrates the `Language`, `Country`, and `Continent` domain clas
 ## Language
 
 ```tsx
-import { Language } from "@gertvdb/locale";
+import { Language } from "@tacky-org/locale";
 
 const language = Language.fromIso6391({ iso_639_1: 'fr' });
 // or
@@ -36,7 +36,7 @@ language.machineName // "french"
 ## Country
 
 ```tsx
-import { Country } from "@gertvdb/locale";
+import { Country } from "@tacky-org/locale";
 
 const country = Country.fromIso31661Alpha2({ alpha2: 'BE' });
 // or
@@ -60,7 +60,7 @@ const locale = country.toLocale({ language: 'fr' });
 ## Continent
 
 ```tsx
-import { Continent } from "@gertvdb/locale";
+import { Continent } from "@tacky-org/locale";
 
 const continent = Continent.europe();
 // or

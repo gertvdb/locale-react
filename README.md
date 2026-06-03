@@ -22,19 +22,25 @@ pnpm add @tacky-org/locale
 
 ## Usage
 
-### Getting the System Locale
+### Locale singletons
+
+`SystemLocale` reflects the OS/runtime locale (used for date and number formatting). `BrowserLocale` reflects the user's preferred browser language (`navigator.language`). These can differ — e.g. an English OS with the browser set to Dutch.
 
 ```typescript
-import { SystemLocale } from '@tacky-org/locale';
+import { SystemLocale, BrowserLocale } from '@tacky-org/locale';
 
 console.log(SystemLocale.locale);        // e.g., "en-US"
 console.log(SystemLocale.language_code); // "en"
 console.log(SystemLocale.country_code);  // "US"
 
-const language = SystemLocale.language();    // ILanguage
-const country  = SystemLocale.country();     // ICountry
-const intl     = SystemLocale.toIntlLocale(); // Intl.Locale
+console.log(BrowserLocale.locale);        // e.g., "nl-BE"
+console.log(BrowserLocale.language_code); // "nl"
+console.log(BrowserLocale.country_code);  // "BE"
 ```
+
+Both expose the same `ILocale` interface: `language()`, `country()`, `toIntlLocale()`.
+
+> **Note**: `BrowserLocale` requires a browser environment (`navigator` must be defined).
 
 ### Creating a Custom Locale
 
