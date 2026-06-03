@@ -1,5 +1,5 @@
 {
-  "name": "@gertvdb/locale",
+  "name": "@tacky-org/locale",
   "version": "0.1.5",
   "description": " Simple, predictable locale management for React",
   "repository": {
