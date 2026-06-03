@@ -15,4 +15,5 @@ export const LocaleProvider = (props: LocaleProviderProps) => {
       {children}
     </LocaleContext.Provider>
   );
+
 };
