@@ -13,8 +13,8 @@ Resolves a detected locale to the best match within a list of supported locales.
 ## Resolution order
 
 1. **Exact match** — locale is directly in the supported list
-2. **Exact override** — locale matches an override key (e.g. `"en-US": "nl-BE"`)
-3. **Wildcard override** — locale matches a pattern using `*` (e.g. `"en-*": "nl-BE"`)
+2. **Exact override** — locale matches an override key exactly (e.g. `"en-US": "nl-BE"`)
+3. **Pattern override** — locale matches a pattern using `*` wildcard or `[a,b]` group (e.g. `"en-*"`, `"*-[BE,NL]"`)
 4. **Language fallback** — first supported locale with the same language code
 5. **Catch-all `*`** — required key, always returns a locale
 
@@ -27,13 +27,13 @@ Resolves a detected locale to the best match within a list of supported locales.
 ```tsx
 import { resolveLocale, SystemLocale } from "@tacky-org/locale";
 
-const locale = resolveLocale(
-  SystemLocale,
-  ["nl-NL", "nl-BE", "fr-BE"],
-  {
-    "*-BE": "fr-BE",  // German is not support, so send german speaking belgians to fr-BE
-    "en-*": "nl-NL",  // Send all english speaking users of and unsupported country to nl-NL
-    "*":    "nl-BE",  // Fallback to nl-BE if no other match is found
+const locale = resolveLocale({
+  detected: SystemLocale,
+  supported: ["nl-NL", "nl-BE", "fr-BE"],
+  overrides: {
+    "*-[BE,LU]": "fr-BE",  // Users from BE or LU with an unsupported language → fr-BE
+    "en-*":      "nl-NL",  // All English speakers → nl-NL
+    "*":         "nl-BE",  // Catch-all fallback
   },
-);
+});
 ```

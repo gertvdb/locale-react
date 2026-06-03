@@ -1,9 +1,10 @@
-import { ILanguage, ILocale, ISimplelocalizeData, LanguageCodeFormat } from "@/Types";
+import { IDatasetEntry, ILanguage, ILocale, LanguageCodeFormat } from "@/Types";
 import { toMachineName } from "@/Utils/toMachineName";
 
-// Dataset : https://cdn.simplelocalize.io/public/v1/locales
-import simplelocalize from "@/Datasets/simplelocalize.io.json";
+import dataset from "@/Dataset/dataset.json";
 import { Locale } from "@/Domain/Locale";
+
+const entries = dataset as IDatasetEntry[];
 
 export class Language implements ILanguage {
   public readonly name: string;
@@ -12,21 +13,21 @@ export class Language implements ILanguage {
   public readonly alpha3: string;
 
   private constructor(value: string, format: LanguageCodeFormat) {
-    let entry: ISimplelocalizeData | undefined;
+    let entry: IDatasetEntry | undefined;
 
     if (format === LanguageCodeFormat.ALPHA2) {
-      entry = (simplelocalize as ISimplelocalizeData[]).find(
+      entry = entries.find(
         (d) => d.language.iso_639_1.toLowerCase() === value.toLowerCase(),
       );
     } else {
       // alpha3: prefer iso_639_3, fall back to iso_639_2
       entry =
-        (simplelocalize as ISimplelocalizeData[]).find(
+        entries.find(
           (d) =>
             d.language.iso_639_3 !== "" &&
             d.language.iso_639_3.toLowerCase() === value.toLowerCase(),
         ) ??
-        (simplelocalize as ISimplelocalizeData[]).find(
+        entries.find(
           (d) => d.language.iso_639_2.toLowerCase() === value.toLowerCase(),
         );
     }
@@ -36,7 +37,7 @@ export class Language implements ILanguage {
     }
 
     this.alpha2 = entry.language.iso_639_1;
-    this.alpha3 = entry.language.iso_639_3 ?? entry.language.iso_639_2;
+    this.alpha3 = entry.language.iso_639_3 !== "" ? entry.language.iso_639_3 : entry.language.iso_639_2;
     this.name = entry.language.name;
     this.machine_name = toMachineName(entry.language.name);
   }

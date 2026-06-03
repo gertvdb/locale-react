@@ -1,24 +1,13 @@
 import React from "react";
-import { createLocale, MatchingPolicy, LocalePolicy } from "../../src";
-import { resolvePolicy } from "@/Utils/resolvePolicy";
+import { createLocale, MatchingPolicy } from "../../src";
 
-const policy: LocalePolicy = {
-    default: MatchingPolicy.STRICT,
-    locales: {
-        "en-[BE,NL]": MatchingPolicy.LOOSE,  // en loose only in BE and NL, not elsewhere
-        "nl-*":        MatchingPolicy.LOOSE,  // nl loose for any country
-    },
-};
+const policy = MatchingPolicy.STRICT;
 
-// en-BE and en-NL are not dataset combinations but match "en-[BE,NL]" → loose.
-// en-DE does not match "en-[BE,NL]" and falls back to the strict default → throws.
-// nl-DE is not a dataset combination but matches "nl-*" → loose.
-// fr-BE is a dataset combination and matches the strict default — no issue.
+// All three must be exact combinations present in the dataset.
 const locales = [
-    { languageOrLocale: "en", country: "BE" },
-    { languageOrLocale: "en", country: "NL" },
-    { languageOrLocale: "nl", country: "DE" },
     { languageOrLocale: "fr", country: "BE" },
+    { languageOrLocale: "nl", country: "NL" },
+    { languageOrLocale: "de", country: "DE" },
 ];
 
 export const Example = () => {
@@ -28,14 +17,11 @@ export const Example = () => {
             <section style={{ marginBottom: 32 }}>
                 <h3>Policy configuration</h3>
                 <hr />
-                <strong>Default:</strong> <code>{policy.default}</code>
-                <br /><br />
-                <strong>Locale rules:</strong>
-                <ul>
-                    {Object.entries(policy.locales).map(([pattern, p]) => (
-                        <li key={pattern}><code>{pattern}</code> → <code>{p}</code></li>
-                    ))}
-                </ul>
+                <strong>Policy:</strong> <code>{policy}</code>
+                <p style={{ color: "#555", marginTop: 8 }}>
+                    Every locale must exist as a combination in the dataset.
+                    Passing a language-country pair that is not in the dataset will throw.
+                </p>
             </section>
 
             <section>
@@ -45,7 +31,7 @@ export const Example = () => {
                     <thead>
                         <tr>
                             <th style={{ textAlign: "left", padding: "6px 12px" }}>Input</th>
-                            <th style={{ textAlign: "left", padding: "6px 12px" }}>Effective policy</th>
+                            <th style={{ textAlign: "left", padding: "6px 12px" }}>Policy</th>
                             <th style={{ textAlign: "left", padding: "6px 12px" }}>Result</th>
                             <th style={{ textAlign: "left", padding: "6px 12px" }}>Languages</th>
                         </tr>
@@ -53,11 +39,10 @@ export const Example = () => {
                     <tbody>
                         {locales.map(({ languageOrLocale, country }) => {
                             const locale = createLocale({ languageOrLocale, country, policy });
-                            const effectivePolicy = resolvePolicy(policy, languageOrLocale, country);
                             return (
                                 <tr key={`${languageOrLocale}-${country}`} style={{ borderTop: "1px solid #eee" }}>
                                     <td style={{ padding: "6px 12px" }}><code>{languageOrLocale}-{country}</code></td>
-                                    <td style={{ padding: "6px 12px" }}><code>{effectivePolicy}</code></td>
+                                    <td style={{ padding: "6px 12px" }}><code>{policy}</code></td>
                                     <td style={{ padding: "6px 12px" }}><code>{locale.locale}</code></td>
                                     <td style={{ padding: "6px 12px" }}><code>{locale.languages().toArray().map((l) => l.name + ' (' + l.alpha2 + ')').join(', ')}</code></td>
                                 </tr>

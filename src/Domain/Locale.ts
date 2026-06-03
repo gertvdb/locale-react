@@ -1,21 +1,25 @@
 import type {
   ICountry,
+  IDatasetEntry,
   ILanguage,
+  ILanguages,
   ILocale,
-  ISimplelocalizeData,
   LocalePolicy,
 } from "@/Types";
 import { MatchingPolicy } from "@/Types";
 import { normalizeLocale } from "@/Utils/normalizeLocale";
 
-// Dataset : https://cdn.simplelocalize.io/public/v1/locales
-import simplelocalize from "@/Datasets/simplelocalize.io.json";
+import dataset from "@/Dataset/dataset.json";
 
 import { Language } from "@/Domain/Language";
 import { Country } from "@/Domain/Country";
 import { resolvePolicy } from "@/Utils/resolvePolicy";
 
-const dataset = simplelocalize as ISimplelocalizeData[];
+const entries = dataset as IDatasetEntry[];
+
+function resolveEffectivePolicy(policy: LocalePolicy, lang: string, country: string): MatchingPolicy {
+  return resolvePolicy(policy, lang, country);
+}
 
 export class Locale implements ILocale {
   public readonly locale: string;
@@ -25,10 +29,10 @@ export class Locale implements ILocale {
   private constructor(language: string, region: string, policy: LocalePolicy = MatchingPolicy.STRICT) {
     const normalized = normalizeLocale({ locale: `${language}-${region}` });
     const [lang, country] = normalized.split("-");
-    const effectivePolicy = resolvePolicy(policy, lang);
+    const effectivePolicy = resolveEffectivePolicy(policy, lang, country);
 
     if (effectivePolicy === MatchingPolicy.STRICT) {
-      const entry = dataset.find(
+      const entry = entries.find(
         (d) => d.locale.toLowerCase() === normalized.toLowerCase(),
       );
 
@@ -38,14 +42,14 @@ export class Locale implements ILocale {
 
       this.locale = entry.locale;
     } else {
-      const languageExists = dataset.some(
+      const languageExists = entries.some(
         (d) => d.language.iso_639_1.toLowerCase() === lang.toLowerCase(),
       );
       if (!languageExists) {
         throw new Error(`Unknown language in locale: ${normalized}`);
       }
 
-      const countryExists = dataset.some(
+      const countryExists = entries.some(
         (d) => d.country.iso_3166_1_alpha2.toLowerCase() === country.toLowerCase(),
       );
       if (!countryExists) {
@@ -66,7 +70,6 @@ export class Locale implements ILocale {
 
   public static fromLocale(value: { locale: string; policy?: LocalePolicy }): Locale {
     const [language, country] = value.locale.split("-");
-
     return new Locale(language, country, value.policy);
   }
 
@@ -76,12 +79,15 @@ export class Locale implements ILocale {
       throw new Error(
         `Unsupported Intl.Locale: ${value.locale.toString()}. A country is required.`,
       );
-
     return new Locale(value.locale.language, country, value.policy);
   }
 
   public language(): ILanguage {
     return Language.new({ code: this.language_code });
+  }
+
+  public languages(): ILanguages {
+    return this.country().languages().add(this.language());
   }
 
   public country(): ICountry {

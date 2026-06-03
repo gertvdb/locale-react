@@ -1,0 +1,32 @@
+import React from "react";
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as Stories from "./Example.stories";
+
+<Meta of={Stories} />
+
+# Strict Locale
+
+With **strict** matching (the default), every locale must exist as an exact language-country combination in the dataset. Passing a pair that isn't in the dataset — such as `en-BE` — will throw an error.
+
+Compare with the [Loose Locale](?path=/docs/loose-locale--docs) example, where `en-BE` and `nl-DE` are accepted because the language and country each exist independently in the dataset.
+
+<br />
+
+## Demo
+
+<Canvas of={Stories.Standard} />
+
+## Code
+
+```tsx
+import { createLocale, MatchingPolicy } from "@tacky-org/locale";
+
+// Strict is the default — no need to pass the policy explicitly
+createLocale({ languageOrLocale: "fr", country: "BE" });
+
+// Or pass it explicitly
+createLocale({ languageOrLocale: "fr", country: "BE", policy: MatchingPolicy.STRICT });
+
+// This throws — en-BE is not a combination in the dataset
+createLocale({ languageOrLocale: "en", country: "BE", policy: MatchingPolicy.STRICT });
+```

@@ -1,8 +1,11 @@
-import { IContinent, ICountries, IRestcountriesData } from "@/Types";
+import { IContinent, ICountries, IDatasetEntry } from "@/Types";
 import { toMachineName } from "@/Utils/toMachineName";
-import restcountries from "@/Datasets/restcountries.com.json";
+
+import dataset from "@/Dataset/dataset.json";
 import { Country } from "@/Domain/Country";
 import { Countries } from "@/Domain/Countries";
+
+const entries = dataset as IDatasetEntry[];
 
 export const CONTINENT_MAP: Record<string, string> = {
   AF: "Africa",
@@ -16,7 +19,6 @@ export const CONTINENT_MAP: Record<string, string> = {
 
 export class Continent implements IContinent {
   public readonly name: string;
-
   public readonly machine_name: string;
   public readonly alpha2: string;
 
@@ -63,12 +65,19 @@ export class Continent implements IContinent {
   }
 
   public countries(): ICountries {
+    const seen = new Set<string>();
     let result: ICountries = Countries.empty();
-    for (const d of restcountries as IRestcountriesData[]) {
-      if (d.continents.includes(this.name)) {
-        result = result.add(Country.from({ code: d.cca2 }));
+
+    for (const d of entries) {
+      if (
+        d.country.continent === this.name &&
+        !seen.has(d.country.iso_3166_1_alpha2)
+      ) {
+        seen.add(d.country.iso_3166_1_alpha2);
+        result = result.add(Country.from({ code: d.country.iso_3166_1_alpha2 }));
       }
     }
+
     return result;
   }
 }

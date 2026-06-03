@@ -1,8 +1,7 @@
 import {
   ICountry,
-  IRestcountriesData,
-  ISimplelocalizeData,
-  ISimplelocalizeCountry,
+  IDatasetCountry,
+  IDatasetEntry,
   ILocale,
   ILanguages,
   ICountries,
@@ -10,20 +9,15 @@ import {
 } from "@/Types";
 import { toMachineName } from "@/Utils/toMachineName";
 
-// Dataset : https://cdn.simplelocalize.io/public/v1/locales
-import simplelocalize from "@/Datasets/simplelocalize.io.json";
-
-// Dataset : https://restcountries.com/v4/all?fields=idd,cca2,continents
-import restcountries from "@/Datasets/restcountries.com.json";
+import dataset from "@/Dataset/dataset.json";
 import { Locale } from "@/Domain/Locale";
 import { Language } from "@/Domain/Language";
 import { Languages } from "@/Domain/Languages";
 import { Countries } from "@/Domain/Countries";
 
-const FORMAT_TO_FIELD: Record<
-  CountryCodeFormat,
-  keyof ISimplelocalizeCountry
-> = {
+const entries = dataset as IDatasetEntry[];
+
+const FORMAT_TO_FIELD: Record<CountryCodeFormat, keyof IDatasetCountry> = {
   [CountryCodeFormat.ALPHA2]: "iso_3166_1_alpha2",
   [CountryCodeFormat.ALPHA3]: "iso_3166_1_alpha3",
   [CountryCodeFormat.NUMERIC]: "iso_3166_1_numeric",
@@ -40,10 +34,9 @@ export class Country implements ICountry {
   private constructor(value: string, format: CountryCodeFormat) {
     const field = FORMAT_TO_FIELD[format];
 
-    const entry = (simplelocalize as ISimplelocalizeData[]).find(
+    const entry = entries.find(
       (d) =>
-        String((d.country as ISimplelocalizeCountry)[field]).toLowerCase() ===
-        value.toLowerCase(),
+        String(d.country[field]).toLowerCase() === value.toLowerCase(),
     );
 
     if (!entry) {
@@ -56,16 +49,7 @@ export class Country implements ICountry {
     this.alpha2 = c.iso_3166_1_alpha2;
     this.alpha3 = c.iso_3166_1_alpha3;
     this.numeric = String(c.iso_3166_1_numeric).padStart(3, "0");
-
-    const rc = (restcountries as IRestcountriesData[]).find(
-      (d) => d.cca2.toLowerCase() === this.alpha2.toLowerCase(),
-    );
-    const idd = rc?.idd;
-    this.direct_dialing_code = idd
-      ? idd.suffixes?.length === 1
-        ? idd.root + idd.suffixes[0]
-        : idd.root
-      : "";
+    this.direct_dialing_code = c.direct_dialing_code;
   }
 
   public static new(value: { code: string }): Country {
@@ -80,41 +64,32 @@ export class Country implements ICountry {
   }
 
   public languages(): ILanguages {
-    const entry = (simplelocalize as ISimplelocalizeData[]).find(
-      (d) =>
-        d.country.iso_3166_1_alpha2.toLowerCase() === this.alpha2.toLowerCase(),
+    const entry = entries.find(
+      (d) => d.country.iso_3166_1_alpha2.toLowerCase() === this.alpha2.toLowerCase(),
     );
 
     let languages: ILanguages = Languages.empty();
-    if (!entry) {
-      return languages;
-    }
+    if (!entry) return languages;
 
     entry.country.languages
+      .filter((l) => l.iso_639_1 !== "")
       .map((l) => Language.new({ code: l.iso_639_1 }))
-      .forEach((l) => {
-        languages = languages.add(l);
-      });
+      .forEach((l) => { languages = languages.add(l); });
 
     return languages;
   }
 
   public borders(): ICountries {
-    const entry = (simplelocalize as ISimplelocalizeData[]).find(
-      (d) =>
-        d.country.iso_3166_1_alpha2.toLowerCase() === this.alpha2.toLowerCase(),
+    const entry = entries.find(
+      (d) => d.country.iso_3166_1_alpha2.toLowerCase() === this.alpha2.toLowerCase(),
     );
 
     let borders: ICountries = Countries.empty();
-    if (!entry) {
-      return borders;
-    }
+    if (!entry) return borders;
 
     entry.country.borders
       .map((b) => Country.from({ code: b }))
-      .forEach((c) => {
-        borders = borders.add(c);
-      });
+      .forEach((c) => { borders = borders.add(c); });
 
     return borders;
   }

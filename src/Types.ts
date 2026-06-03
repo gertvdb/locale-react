@@ -11,25 +11,37 @@ export enum MatchingPolicy {
 }
 
 /**
- * A uniform policy (applies to all locales) or a per-language policy map with a required default.
+ * A uniform policy or a rule map with a required default.
+ *
+ * The `locales` map uses the same `*` wildcard syntax as `resolveLocale` overrides.
+ * Resolution order: exact match → language wildcard (`en-*`) → country wildcard (`*-BE`) → default.
  *
  * @example
  * // uniform
  * MatchingPolicy.STRICT
  *
  * @example
- * // per-language: loose for "en" and "nl", strict for everything else
- * { default: MatchingPolicy.STRICT, languages: { en: MatchingPolicy.LOOSE, nl: MatchingPolicy.LOOSE } }
+ * // exact combination
+ * { default: MatchingPolicy.STRICT, locales: { 'en-BE': MatchingPolicy.LOOSE } }
+ *
+ * @example
+ * // language wildcard — en loose for any country
+ * { default: MatchingPolicy.STRICT, locales: { 'en-*': MatchingPolicy.LOOSE } }
+ *
+ * @example
+ * // country wildcard — any language loose in BE
+ * { default: MatchingPolicy.STRICT, locales: { '*-BE': MatchingPolicy.LOOSE } }
  */
 export type LocalePolicy =
   | MatchingPolicy
-  | { default: MatchingPolicy; languages: Record<string, MatchingPolicy> };
+  | { default: MatchingPolicy; locales: Record<string, MatchingPolicy> };
 
 export interface ILocale {
   locale: string;
   language_code: string;
   country_code: string;
   language(): ILanguage;
+  languages(): ILanguages;
   country(): ICountry;
   toIntlLocale(): Intl.Locale;
 }
@@ -105,13 +117,7 @@ export interface ILanguages {
   toArray(): ILanguage[];
 }
 
-export interface ISimplelocalizeData {
-  locale: string;
-  language: ISimplelocalizeLanguage;
-  country: ISimplelocalizeCountry;
-}
-
-export interface ISimplelocalizeLanguage {
+export interface IDatasetLanguage {
   name: string;
   name_local: string;
   iso_639_1: string;
@@ -119,43 +125,28 @@ export interface ISimplelocalizeLanguage {
   iso_639_3: string;
 }
 
-export interface ISimplelocalizeCountry {
+export interface IDatasetCountry {
   name: string;
   name_local: string;
-  code: string;
-  area_sq_km: number;
+  iso_3166_1_alpha2: string;
+  iso_3166_1_alpha3: string;
+  iso_3166_1_numeric: number;
   continent: string;
   region: string;
-  capital_name: string;
-  capital_latitude: number;
-  capital_longitude: number;
-  currency: string;
-  currency_local: string;
+  capital: string;
+  direct_dialing_code: string;
   currency_code: string;
   currency_symbol: string;
-  currency_numeric: number;
-  currency_subunit_value: number;
-  currency_subunit_name: string;
-  languages: ISimplelocalizeLanguage[];
   flag: string;
   timezones: string[];
   borders: string[];
-  is_landlocked: boolean;
-  tld: string;
-  iso_3166_1_numeric: number;
-  iso_3166_1_alpha2: string;
-  iso_3166_1_alpha3: string;
+  languages: IDatasetLanguage[];
 }
 
-export interface IRestcountriesData {
-  cca2: string;
-  idd: IRestcountriesIdd;
-  continents: string[];
-}
-
-export interface IRestcountriesIdd {
-  root: string;
-  suffixes: string[];
+export interface IDatasetEntry {
+  locale: string;
+  language: IDatasetLanguage;
+  country: IDatasetCountry;
 }
 
 export type LocaleOverrides = { "*": string } & Record<string, string>;

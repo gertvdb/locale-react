@@ -4,13 +4,13 @@ import { resolveLocale, SystemLocale } from "../../src";
 const supported = [
     "nl-NL",
     "nl-BE",
-    "fr-BE"
+    "fr-BE",
 ];
 
 const overrides = {
-    "*-BE": "fr-BE",  // German is not support, so send german speaking belgians to fr-BE
-    "en-*": "nl-NL",  // Send all english speaking users of and unsupported country to nl-NL
-    "*":    "nl-BE",  // Fallback to nl-BE if no other match is found
+    "*-[BE,LU]": "fr-BE",  // Send users from BE or LU with an unsupported language to fr-BE
+    "en-*":      "nl-NL",  // Send all English speakers to nl-NL
+    "*":         "nl-BE",  // Fallback to nl-BE if no other match is found
 };
 
 export const Example = () => {
@@ -45,7 +45,7 @@ export const Example = () => {
                     <strong>Detected:</strong>
                     <ul><li>{SystemLocale.locale}</li></ul>
                 </div>
-                <br/>
+                <br />
                 <div>
                     <strong>Resolved:</strong>
                     <ul><li>{resolved.locale}</li></ul>

@@ -1,7 +1,11 @@
-import {ILocale, LocaleOverrides} from "@/Types";
+import { ILocale, LocaleOverrides, LocalePolicy } from "@/Types";
 import { Locale } from "@/Domain/Locale";
 import { normalizeLocale } from "@/Utils/normalizeLocale";
+import { matchLocalePattern } from "@/Utils/matchLocalePattern";
 
+function isPattern(key: string): boolean {
+    return key.includes("*") || key.includes("[");
+}
 
 /**
  * Resolves a locale to the best match within a list of supported locale strings.
@@ -9,23 +13,24 @@ import { normalizeLocale } from "@/Utils/normalizeLocale";
  * Resolution order:
  * 1. Exact match in supported list
  * 2. Exact override key match (e.g. "en-GB": "nl-BE")
- * 3. Wildcard override key match using * syntax (e.g. "en-*": "nl-BE" matches any en-* locale)
+ * 3. Pattern override key match using * and [a,b] syntax (e.g. "en-*", "en-[BE,NL]")
  * 4. First supported locale with the same language (e.g. "nl-DE" → "nl-NL")
  * 5. Catch-all override "*" (required — guarantees a locale is always returned)
  */
-export function resolveLocale(value : {
+export function resolveLocale(value: {
   detected: ILocale,
   supported: string[],
   overrides: LocaleOverrides,
+  policy?: LocalePolicy,
 }): ILocale {
 
-  const { detected, supported, overrides } = value;
+  const { detected, supported, overrides, policy } = value;
 
   const key = detected.locale;
   const normalizedSupported = supported.map((s) => normalizeLocale({ locale: s }));
   const normalizedOverrides = Object.fromEntries(
     Object.entries(overrides).map(([k, v]) => [
-      k.includes("*") ? k : normalizeLocale({ locale: k }),
+      isPattern(k) ? k : normalizeLocale({ locale: k }),
       normalizeLocale({ locale: v }),
     ]),
   ) as LocaleOverrides;
@@ -36,17 +41,18 @@ export function resolveLocale(value : {
 
   const overridden = normalizedOverrides[key];
   if (overridden) {
-    return Locale.fromLocale({ locale: overridden });
+    return Locale.fromLocale({ locale: overridden, policy });
   }
 
-  const wildcardMatch = Object.entries(normalizedOverrides).find(([pattern]) => {
-    if (pattern === "*" || !pattern.includes("*")) return false;
-    const regex = new RegExp("^" + pattern.replace(/\*/g, ".+") + "$", "i");
-    return regex.test(key);
+  const [lang, country] = key.split("-");
+
+  const patternMatch = Object.entries(normalizedOverrides).find(([pattern]) => {
+    if (pattern === "*" || !isPattern(pattern)) return false;
+    return matchLocalePattern(pattern, lang, country);
   });
 
-  if (wildcardMatch) {
-    return Locale.fromLocale({ locale: wildcardMatch[1] });
+  if (patternMatch) {
+    return Locale.fromLocale({ locale: patternMatch[1], policy });
   }
 
   const byLanguage = normalizedSupported.find((s) =>
@@ -54,8 +60,8 @@ export function resolveLocale(value : {
   );
 
   if (byLanguage) {
-    return Locale.fromLocale({ locale: byLanguage });
+    return Locale.fromLocale({ locale: byLanguage, policy });
   }
 
-  return Locale.fromLocale({ locale: normalizedOverrides["*"] });
+  return Locale.fromLocale({ locale: normalizedOverrides["*"], policy });
 }

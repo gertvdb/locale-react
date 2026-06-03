@@ -24,7 +24,8 @@
     "release:patch": "pnpm install && pnpm run build && pnpm version patch --git-tag-version=false",
     "release:minor": "pnpm install && pnpm run build && pnpm version minor --git-tag-version=false",
     "release:major": "pnpm install && pnpm run build && pnpm version major --git-tag-version=false",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
+    "build-dataset": "tsx scripts/build-dataset.ts"
   },
   "engines": {
     "node": ">=20",
@@ -37,7 +38,6 @@
     "react": ">=19",
     "react-dom": ">=19"
   },
-  "dependencies": {},
   "devDependencies": {
     "@chromatic-com/storybook": "^5.1.2",
     "@storybook/addon-a11y": "10.2.10",
@@ -59,6 +59,7 @@
     "ts-jest": "^29.4.9",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.1",
+    "tsx": "^4.22.4",
     "typescript": "^5.9.3",
     "vite": "^6.4.2"
   }

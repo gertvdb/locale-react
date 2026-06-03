@@ -8,7 +8,7 @@ import * as Stories from "./Example.stories";
 
 By default, `createLocale` uses **strict** matching — the language-country combination must exist as an entry in the dataset. With a **loose** policy the language and the country are each validated independently, so any valid combination is accepted even if it doesn't appear in the dataset.
 
-The policy can be applied uniformly or **per language**, using the same map-with-default pattern as `resolveLocale` overrides.
+The policy can be applied uniformly or **per locale pattern**, using `*` wildcards and `[a,b]` groups to target specific combinations.
 
 <br />
 
@@ -23,18 +23,21 @@ import { createLocale, MatchingPolicy } from "@tacky-org/locale";
 
 const policy = {
     default: MatchingPolicy.STRICT,
-    languages: {
-        en: MatchingPolicy.LOOSE,
-        nl: MatchingPolicy.LOOSE,
+    locales: {
+        "en-[BE,NL]": MatchingPolicy.LOOSE,  // en loose only in BE and NL
+        "nl-*":        MatchingPolicy.LOOSE,  // nl loose for any country
     },
 };
 
-// en-BE is not a dataset combination, but allowed — "en" is loose
+// en-BE — matches "en-[BE,NL]" → loose
 createLocale({ languageOrLocale: "en", country: "BE", policy });
 
-// nl-DE is not a dataset combination, but allowed — "nl" is loose
+// en-NL — matches "en-[BE,NL]" → loose
+createLocale({ languageOrLocale: "en", country: "NL", policy });
+
+// nl-DE — matches "nl-*" → loose
 createLocale({ languageOrLocale: "nl", country: "DE", policy });
 
-// fr-BE must exist in the dataset — "fr" falls back to the strict default
+// fr-BE — no matching rule, falls back to strict default
 createLocale({ languageOrLocale: "fr", country: "BE", policy });
 ```
